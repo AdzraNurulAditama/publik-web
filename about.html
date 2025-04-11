@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>kelompok 10</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/about.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body id="body">
+
+
+  <div class="container-fluid ">
+
+    
+    <!-- Navbar untuk ukuaran Hp -->
+   
+
+    <div class="row">
+      <!-- navbar untuk ukuran laptop -->
+      <nav class="col-lg-2 col-md-3 d-none d-md-block  position-fixed  navv" >
+        <div class="d-flex muncul ">
+          <i class="fa-solid fa-user me-2 mt-1" ></i>
+          <h5 class=" mb-4"> <span class="displayUsername"></span></h5>
+        </div>
+  
+          <ul class="nav flex-column ">
+            <li class="nav-item mb-2">
+              <i class="fa-solid fa-house "></i>
+              <a class=" " href="index.html">HOME</a>
+              
+            </li>
+            <li class="nav-item mb-2 ">
+              <i class="fa-solid fa-book"></i>
+              <a class="" href="genre.html">Genre Buku</a>
+              <i class="fa-solid fa-circle-down"></i>
+              <div class="linear">
+            
+            </div>
+            </li>
+            <li class="nav-item">
+              <i class="fa-solid fa-heart"></i>
+              <a class="" href="bukufavorit.html">Buku Favorit</a>
+            </li>
+            <li class="nav-item mt-2">
+              <a href="myprofil.html">My Profil</a> 
+            </li >
+          </ul>
+        </nav>
+
+      <!-- header -->
+      <header class="col-lg-10 col-md-9  ms-sm-auto px-5 " >
+      <div>
+        <h1>Welcome to Website</h1>
+      </div>
+      <div>
+          <input class="search" type="text" placeholder="Search Books">
+      </div>
+      <div>
+         <button type="button" class="logout">Logout</button>
+      </div>
+      </header>
+      <nav class="navbar  navbar-dark bg-dark d-md-none  mb-3 " style="margin-top: ;">
+        <div class="container-fluid"> 
+          <div class="d-flex muncul ">
+            <i class="fa-solid fa-user me-2 mt-1" ></i>
+            <h5 class=" mb-4"> <span class="displayUsername"></span></h5>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="nav ">
+              <li class="nav-item me-5">
+                <i class="fa-solid fa-house  "></i>
+                <a class=" " href="index.html" target="_blank">HOME</a>
+                
+              </li>
+
+          
+
+              <li class="nav-item me-5">
+                <i class="fa-solid fa-book"></i>
+                <a class="" href="#">Genre Buku</a>
+                
+  
+              </li>
+              <li class="nav-item me-5">
+                <i class="fa-solid fa-heart"></i>
+                <a class="" href="#">Buku Favorit</a>
+              </li>
+              <li class="nav-item ">
+                <a href="">My Profil</a> 
+              </li >
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Main Content -->
+      <!-- <main class="col-lg-10 col-md-9 ms-sm-auto px-4" >
+
+       
+     <section class="konten">
+          <div class="isi">
+
+
+          <div class="semua">
+          <h1 class="judul text-center mb-5 col">Berbagai Buku yang menarik</h1>
+           <div class="row g-5 Atas " >
+            <div class="col-md-6 col-sm-12 p-5" >
+              <h1>Temukan buku yang bisa dibaca</h1>
+              <h1>Setiap Saat</h1>
+              <p>Sudah banyak buku yang bisa di baca dari berbagai genre yaitu dari horor,fiksi,komedi dan banyak lagi buku yang menarik </p>
+            </div>
+            <div class="col-md-6 col-sm-12 ps-5 pt-3 " >
+                <div class="row  ">
+                  <div class="col-5  ">
+                    <div class="satuan1">
+                     <h3>21K+</h3>
+                     <p>jumlah buku</p>
+                    </div>
+                  </div>
+
+                  <div class="col-7 ">
+                    <div class="satuan2 ">
+                      <h3>51K+</h3>
+                      <p>user yang aktif</p>
+                     </div>
+
+                  </div>
+                  <div class="col-12 mb-5 mt-5">
+                    <div class="satuan3 " style="display: flex; justify-content: center; ">
+                      <img src="../img/home1.png" alt="" class="rounded-1" style="width: 300px;">
+                     </div>
+
+                  </div>
+
+                </div>
+            </div>
+            </div>
+
+           <div class="row  mt-4 pb-4" style="background-color: lightgrey; border-radius: 10px; box-shadow: 2px 2px 2px gray;">
+           <h1 class="text-center m-5 text-white">Rekomendasi</h1>
+            <div class="col-md-3 col-sm-6">
+              <div class="book-card">
+                  <div class="image">
+                      <img src="../img/horor12.jpeg" alt="" class="book-image" id="bookImage-12" onclick="openPopup()">
+                  </div>
+                  <p><strong>Janur Ireno</strong></p>
+                  <div class="view-grid">
+                      <i class="fa-solid fa-eye fa-1x">100k</i>
+                      <i class="fa-solid fa-list"></i>
+                  </div>
+              </div>
+            </div>
+
+            
+
+            <div class="col-md-3 col-sm-6">
+              <div class="book-card">
+                  <div class="image">
+                      <img src="../img/horor1.jpeg" alt="" class="book-image" id="bookImage-1" onclick="openPopup()">
+                  </div>
+                  <p><strong>Sewu Dino</strong></p>
+                  <div class="view-grid">
+                      <i class="fa-solid fa-eye fa-1x">100k</i>
+                      <i class="fa-solid fa-list"></i>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="book-card">
+                <div class="image">
+                    <img src="../img/horor4.jpeg" alt="" class="book-image" id="bookImage-4" onclick="openPopup()">
+                </div>
+                <p><strong>Ranjat Kembang</strong></p>
+                <div class="view-grid">
+                    <i class="fa-solid fa-eye fa-1x">100k</i>
+                    <i class="fa-solid fa-list"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="book-card">
+              <div class="image">
+                  <img src="../img/horor5.jpeg" alt="" class="book-image" id="bookImage-5" onclick="openPopup()">
+              </div>
+              <p><strong>Hilang Dalam</strong></p>
+              <div class="view-grid">
+                  <i class="fa-solid fa-eye fa-1x">100k</i>
+                  <i class="fa-solid fa-list"></i>
+              </div>
+          </div>
+        </div>
+
+
+            </div>
+          </div>
+        
+           
+          </div>
+    </section>
+  </main> -->
+
+  <main class="col-lg-10 col-md-9 ms-sm-auto px-4" >
+    <h1>Tentang Kami</h1>
+    <div class="container">
+        <div class="main-content">
+            <div class="section">
+                <p>
+                    It Starts With Page memudahkanmu memulai perjalanan kreatif di dunia menulis, kapan pun dan di mana pun—baik di ponsel, komputer, tablet, atau bahkan hanya dengan pena dan kertas.
+                </p>
+                <p>
+                    Dengan panduan yang jelas dan langkah-langkah praktis, buku ini menghadirkan berbagai ide dan teknik untuk membantumu menulis dengan percaya diri. Entah kamu sedang mencari inspirasi, mengembangkan gaya menulis, atau menghadapi kebuntuan kreatif, "It Starts With Page" selalu siap menjadi teman setia dalam proses kreatifmu.
+                </p>
+                <p>
+                    Kamu juga dapat belajar dari pengalaman penulis, menjelajahi cerita inspiratif, dan mempelajari cara membangun karya yang bermakna. Semua ini dikemas dalam satu buku yang dirancang untuk membantumu mengekspresikan diri secara autentik.
+                <p>
+                    Isi harimu dengan cerita dan kreasi melalui "It Starts With Page". Mulailah perjalananmu, satu halaman pada satu waktu.
+                </p>
+            </div>
+            <div class="section">
+                <h2>Layanan dan Dukungan Pelanggan</h2>
+                <ul class="list">
+                    <li>
+                        <a href="#">Situs bantuan</a>Kunjungi panduan membaca kami untuk menemukan jawaban atas pertanyaanmu serta mempelajari cara mendapatkan pengalaman terbaik dari "It Starts With Page." Panduan ini dirancang untuk membantumu memulai, mengembangkan, dan menyelesaikan karya tulismu dengan percaya diri.
+                    </li>
+                    <li>
+                        <a href="#">Komunitas</a> Bergabunglah dengan komunitas pembaca dan penulis kami untuk berbagi pengalaman, mendapatkan inspirasi, dan berdiskusi tentang ide-ide kreatif. Jika kamu memiliki pertanyaan yang belum terjawab, buatlah topik baru dan mulailah percakapan dengan sesama kreator.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="section">
+                <h2>Kantor Pusat it's start with page</h2>
+                <div class="address-group">
+                    <h3>it's start with page AB</h3>
+                    <p>Regeringsgatan 19<br>SE-111 53 Stockholm<br>Sweden<br>Reg no: 556703-7485<br>Email: office@it'sstartwithpage.com</p>
+                </div>
+            </div>
+            <div class="section">
+                <h2>it's start with page di seluruh dunia</h2>
+                <div class="address-group">
+                    <h3>it's start with page Belgium</h3>
+                    <p>Square de Meeus 37<br>4th floor<br>1000 Brussels, Belgium</p>
+                </div>
+                <div class="address-group">
+                    <h3>it's start with page GmbH</h3>
+                    <p>Unter den Linden 10<br>10117 Berlin, Germany</p>
+                </div>
+                <div class="address-group">
+                    <h3>it's start with page India LLP</h3>
+                    <p>Jet Airways - Godrej BKC<br>1st Floor, Unit 1 and 2, Plot C-68, G Block,<br>Bandra Kurla Complex, Bandra East,<br>Mumbai Suburban 400051, Maharashtra, India</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+ 
+  <footer class="col-lg-10 col-md-9 ms-sm-auto ms-md-auto px-4">
+    <div class="row g-3">
+      <div class="col-md-3 text-center">
+        <div class="mt-5">
+          <img src="../img/logo.png" alt="Logo" class="img-fluid" style="max-width: 200px; height: auto;">
+        </div>
+      </div>
+  
+      <div class="col-md-9">
+        <div class="row g-5">
+          <div class="col-md-4 text-center"></div>
+          <div class="col-md-4 text-center"></div>
+          <div class="col-md-4 text-center"></div>
+        </div>
+  
+        <div class="row g-3 mt-4">
+          <h1 class="text-center mt-3 mb-3">Closed Now</h1>
+          <div class="col-md-4 col-sm-4">
+            <div class="tambahan">
+              <a href="https://www.youtube.com/"><h6>About Us</h6></a>
+              <ul>
+                <li><a href="">Mission</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Newsletter</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="tambahan">
+              <a href="https://www.youtube.com/"><h6>Contact</h6></a>
+              <ul>
+                <li><a href="">Fun</a></li>
+                <li><a href="">Refund Policy</a></li>
+                <li><a href="">FAQs</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="tambahan">
+              <h6>Social</h6>
+              <ul>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">YouTube</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="d-flex bawah">
+      <div>
+        <p>Copyright &copy; Webcoming</p>
+      </div>
+      <div class=""></div>
+      <p>Team Service</p>
+      <div>
+        <a href="#body">Back to up</a>
+      </div>
+    </div>
+  </footer>
+  
+
+</div>
+</div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="../js/main.js"></script>
+  <script></script>
+</body>
+</html>

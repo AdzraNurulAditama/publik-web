@@ -1,0 +1,3241 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>kelompok 10</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/genre.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body id="body">
+
+
+  <div class="container-fluid ">
+
+    
+    <!-- Navbar untuk ukuaran Hp -->
+   
+
+    <div class="row">
+      <!-- navbar untuk ukuran laptop -->
+      <nav class="col-lg-2 col-md-3 d-none d-md-block  position-fixed  navv" >
+        <div class="d-flex muncul ">
+          <i class="fa-solid fa-user me-2 mt-1" ></i>
+          <h5 class=" mb-4"> <span class="displayUsername"></span></h5>
+        </div>
+  
+          <ul class="nav flex-column ">
+            <li class="nav-item mb-2">
+              <i class="fa-solid fa-house "></i>
+              <a class=" " href="index.html">HOME</a>
+              
+            </li>
+            <li class="nav-item mb-2 ">
+              <i class="fa-solid fa-book"></i>
+              <a class="" href="genre.html">Genre Buku</a>
+              <i class="fa-solid fa-circle-down"></i>
+              <div class="linear">
+            
+            </div>
+            </li>
+            <li class="nav-item">
+              <i class="fa-solid fa-heart"></i>
+              <a class="" href="bukufavorit.html">Buku Favorit</a>
+            </li>
+            <li class="nav-item mt-2">
+              <a href="myprofil.html">My Profil</a> 
+            </li >
+          </ul>
+        </nav>
+
+      <!-- header -->
+      <header class="col-lg-10 col-md-9  ms-sm-auto px-5 " >
+      <div>
+        <h1>Welcome to Website</h1>
+      </div>
+      <div>
+          <input class="search" type="text" placeholder="Search Books">
+      </div>
+      <div>
+         <button type="button" class="logout">Logout</button>
+      </div>
+      </header>
+      <nav class="navbar  navbar-dark bg-dark d-md-none  mb-3 " style="margin-top: ;">
+        <div class="container-fluid"> 
+          <div class="d-flex muncul ">
+            <i class="fa-solid fa-user me-2 mt-1" ></i>
+            <h5 class=" mb-4"> <span class="displayUsername"></span></h5>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="nav ">
+              <li class="nav-item me-5">
+                <i class="fa-solid fa-house  "></i>
+                <a class=" " href="index.html" target="_blank">HOME</a>
+                
+              </li>
+
+          
+
+              <li class="nav-item me-5">
+                <i class="fa-solid fa-book"></i>
+                <a class="" href="#">Genre Buku</a>
+                
+  
+              </li>
+              <li class="nav-item me-5">
+                <i class="fa-solid fa-heart"></i>
+                <a class="" href="#">Buku Favorit</a>
+              </li>
+              <li class="nav-item ">
+                <a href="myprofil.html">My Profil</a> 
+              </li >
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="col-lg-10 col-md-9 ms-sm-auto px-4" >
+
+       
+        <section class="konten">
+            <div class="isi">
+       <h1 class="judul">Horor</h1>
+       <section class="row utama overflow-auto flex-nowrap">
+         <div class="col-md-3">
+             <div class="book-card">
+                 <div class="image">
+                     <img src="../foto/horor1.jpeg" alt="" class="book-image" id="bookImage-1" onclick="openPopup()">
+                 </div>
+                 <p><strong>Sewu Dino</strong></p>
+                 <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">257k</i>
+                   <i class="fa-solid fa-heart"> 120k</i>
+                 </div>
+             </div>
+         </div>
+                    <!-- Popup Overlay -->
+           <div class="popup-overlay hidden" id="popup">
+             <div class="popup-content">
+                 <!-- Judul Buku di Atas Gambar -->
+                 <h2>Sewu Dino</h2>
+                 <p class="author">Simpleman</p>
+                 <!-- Isi Popup dengan Gambar dan Sinopsis -->
+                 <div class="popup-body">
+                     <!-- Gambar Buku -->
+                     <img src="../foto/horor1.jpeg" alt="Laut Bercerita" class="popup-image">
+                     <!-- Sinopsis Buku -->
+                     <div class="popup-synopsis">
+                         <p>“Di dalam ruangan inilah nanti kamu bekerja,” ucap Mbah Tamin sambil membuka pintu. Seketika, bau busuk langsung tercium. Sri mematung. Di depannya terbujur seorang perempuan, dikurung dalam kerangka keranda mayat.
+   
+                           Tubuhnya kurus dan pucat. Badannya dipenuhi borok dan nanah. Tak hanya itu, perutnya juga besar seperti orang hamil.
+                           
+                           Tidak peduli Sri yang ketakutan, Mbak Tamin melanjutkan penjelasannya, “Dia adalah Dela Atmojo, anak yang harus kamu rawat sampai waktunya tiba. Ia dikirimi kutukan santet sewu dino. Santet yang sudah merenggut nyawa hampir seluruh anggota keluarga Atmojo!”
+                           
+                           ——–
+                           
+                           Dari penulis bestseller KKN di Desa Penari, Simpleman kembali dengan kisah klenik tanah Jawa yang terinspirasi dari kisah nyata, Sewu Dino. Tentang santet seribu hari yang dikirim untuk menggerogoti nyawa manusia. Semakin kita pikir telah menemukan jalan keluar, semakin kita merasa tersesat. Sebab cerita ini lebih besar dari yang kamu bayangkan.</p>
+                           <div class="content">
+                            <a href="./html2/showmore2.html" class="showmore" target="_blank">Show More</a>
+                       </div>
+                     </div>
+                 </div>
+                 <!-- Tombol Tutup -->
+                 <button onclick="closePopup('openPopup')" class="close-btn">X</button>
+             </div>
+         </div>
+         <div class="col-md-3">
+           <div class="book-card">
+               <div class="image">
+                   <img src="../foto/horor2.jpeg" alt="" class="book-image" id="bookImage-2" onclick="openPopup()">
+               </div>
+               <p><strong>KKN Di Desa Penari</strong></p>
+               <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">210k</i>
+                         <i class="fa-solid fa-heart"> 100k</i>
+               </div>
+           </div>
+       </div>
+                  <!-- Popup Overlay -->
+         <div class="popup-overlay hidden" id="popup-2">
+           <div class="popup-content">
+               <!-- Judul Buku di Atas Gambar -->
+               <h2 class="Kosan">KKN Di Desa Penari</h2>
+               <p class="author">Simpleman</p>
+               <!-- Isi Popup dengan Gambar dan Sinopsis -->
+               <div class="popup-body">
+                   <!-- Gambar Buku -->
+                   <img src="../foto/horor2.jpeg" alt="" class="popup-image">
+                   <!-- Sinopsis Buku -->
+                   <div class="popup-synopsis">
+                       <p>KKN di Desa Penari adalah sebuah novel horor karya SimpleMan yang dialihwahanakan dari sebuah utas Twitter yang viral. Novel ini diterbitkan oleh Bukune pada 13 September 2019.[1] Utas horor tersebut diterbitkan pada 24 Juni 2019 oleh pengguna Twitter bernama SimpleMan dan menjadi viral di beberapa media sosial sejak 31 Agustus 2019. Bayu, Songgon, Banyuwangi sempat dianggap sebagai latar dari cerita tersebut.[2] Cerita tersebut diedarkan sebagai novel dan diangkat ke film berjudul sama yang diproduksi oleh MD Pictures pada 30 April 2022.[3] Menurut Guru Besar Psikologi Universitas Gadjah Mada, Prof Koentjoro, viralnya kisah horor tersebut di media sosial menunjukkan bahwa platform media sosial menimbulkan efek echo chamber.</p>
+                   </div>
+               </div>
+               <!-- Tombol Tutup -->
+               <button onclick="closePopup('popup-2')" class="close-btn">X</button>
+           </div>
+       </div>
+   
+       <div class="col-md-3">
+         <div class="book-card">
+             <div class="image">
+                 <img src="../foto/horor3.jpeg" alt="" class="book-image" id="bookImage-3" onclick="openPopup()">
+             </div>
+             <p><strong>Jurnal Risa</strong></p>
+             <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">270k</i>
+               <i class="fa-solid fa-heart">175k</i>
+             </div>
+         </div>
+     </div>
+                <!-- Popup Overlay -->
+       <div class="popup-overlay hidden" id="popup-3">
+         <div class="popup-content">
+             <!-- Judul Buku di Atas Gambar -->
+             <h2>Jurnal Risa</h2>
+             <p class="author">Risa Saraswati</p>
+             
+             <!-- Isi Popup dengan Gambar dan Sinopsis -->
+             <div class="popup-body">
+                 <!-- Gambar Buku -->
+                 <img src="../foto/horor3.jpeg" alt="" class="popup-image">
+                 
+                 <!-- Sinopsis Buku -->
+                 <div class="popup-synopsis">
+                     <p>Teruntuk saudara-saudaraku di Jurnal Risa;
+   
+                       Saat ini akhirnya datang, kesempatan untuk menceritakan kisah kita bersama. Hal ini harus kulakukan karena aku memang tak sanggup bila sendirian, menghadapi segalanya seolah aku ini sang pemberani.
+                       
+                       Tanpa kalian, Jurnal Risa hanya akan jadi sebuah nama dan tak mungkin bisa berdiri sekuat ini. Dalam buku ini, aku ingin mengajak kita semua bernostalgia, tentang hal-hal gila yang pernah terjadi di masa kecil kita dahulu.
+                       
+                       Teruntuk para pembaca kesayanganku;
+                       
+                       Ini adalah cerita kami kecil, di musim libur sekolah yang menyenangkan. Ketika aku, A Angga, Nicko, Kakang, dan Riri untuk kali pertama berterus terang dan bertualang dengan ‘kemampuan’ kami.
+                       
+                       Tidak pernah sedikit pun terpikir, ini adalah sebuah awal yang perlahan membentuk karakter kami. Sekumpulan penakut yang mau tak mau menjadi berani karena tak bisa menutup mata dan telinga dari teror mereka.</p>
+                 </div>
+             </div>
+             
+             
+             <!-- Tombol Tutup -->
+             <button onclick="closePopup()" class="close-btn">X</button>
+         </div>
+     </div>
+   
+     <div class="col-md-3">
+       <div class="book-card">
+           <div class="image">
+               <img src="../foto/horor4.jpeg" alt="" class="book-image" id="bookImage-4" onclick="openPopup()">
+           </div>
+           <p><strong>Ranjat Kembang</strong></p>
+           <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">150k</i>
+               <i class="fa-solid fa-heart">67.5k</i>
+           </div>
+       </div>
+   </div>
+              <!-- Popup Overlay -->
+     <div class="popup-overlay hidden" id="popup-4">
+       <div class="popup-content">
+           <!-- Judul Buku di Atas Gambar -->
+           <h2>Ranjat Kembang</h2>
+           <p class="author">Simpleman</p>
+           
+           <!-- Isi Popup dengan Gambar dan Sinopsis -->
+           <div class="popup-body">
+               <!-- Gambar Buku -->
+               <img src="../foto/horor4.jpeg" alt="" class="popup-image">
+               
+               <!-- Sinopsis Buku -->
+               <div class="popup-synopsis">
+                   <p>Setelah memakan ratusan nyawa, perseteruan Trah Pituh menjalar begitu jauh, meneror keturunan termuda hingga orang-orang di luar lingkaran keluarga. Tiga pintu cerita—Padusan Pituh, Lemah Layat, dan Kembang Wijayakusuma—akan dibuka dan mereka yang di dalamnya harus menyelamatkan diri dari jeratan Ranjat Kembang yang mematikan.
+   
+                     Mulai dari trauma masa kecil yang terus menghantui Dela Atmojo, kelakuan ganjil ibu Mira yang ingin membunuh adiknya sendiri, hingga penugasan Agus dan Ruslan ke sebuah lahan yang ditinggali ribuan makhluk gaib.
+                     
+                     Takdir telah dituliskan dan nama-nama mereka tercatat di sana. Sanggupkah mereka melawan itu semua? Atau mungkinkah setiap langkah yang mereka putuskan juga bagian dari takdir yang pada akhirnya akan menelan mereka ke dalam kegelapan?</p>
+               </div>
+           </div>
+           
+           
+           <!-- Tombol Tutup -->
+           <button onclick="closePopup()" class="close-btn">X</button>
+       </div>
+   </div>
+   
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/horor5.jpeg" alt="" class="book-image" id="bookImage-5" onclick="openPopup()">
+         </div>
+         <p><strong>Hilang Dalam Dekapan Semeru</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">85k</i>
+                    <i class="fa-solid fa-heart">33k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-5">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Hilang Dalam Dekapan Semeru</h2>
+         <p class="author">Fajar Aditya</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/horor5.jpeg" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>“INI SIAPA YANG MASUK? JANGAN MAIN-MAIN! GUE NGGAK PERCAYA KALO TEMEN GUE UDAH NGGAK ADA!” Sosok jelangkung itu lantas menulis, INI SAYA, DARIS. Arif semakin terkejut dengan jawaban jelangkung tersebut. Dia pun maju. Perasaannya campur aduk antara takut, khawatir, dan sedih, seakan tak terima kalau yang datang pada jelangkung tersebut adalah Bang Daing. “Kalau ini beneran lo, Bang, tolong jawab satu pertanyaan gue. Lo terakhir pake baju apaan?” Jelangkung itu kemudian menuliskan jawaban yang membuat tubuh Arif seketika luruh. Inilah jawaban atas pencarian yang dilakukan tim selama berminggu-minggu. Arif masih tertegun di tempat, sama sekali tidak menyangka bahwa pendakian ke Semeru akan menjadi perjalanan terakhirnya bersama sahabatnya.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/horor6.jpeg" alt="" class="book-image" id="bookImage-6" onclick="openPopup()">
+         </div>
+         <p><strong>Setan-Setan Menggugat</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">155k</i>
+           <i class="fa-solid fa-heart">53.8k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-6">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Setan-Setan Menggugat</h2>
+         <p class="author">kisahtanahjawa</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/horor6.jpeg" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Penderitaan demi penderitaan dialami pribumi akibat penjajahan, bukan hanya dari bangsa asing, tapi juga dari bangsanya sendiri. Para penguasa daerah yang tamak, tega melihat rakyatnya kelaparan, bahkan mengorbankan mereka sebagai tiang pancang Jembatan Geladak Manyar. Nyawa tidak ada artinya.
+   
+                   Sebagai kaki tangan penguasa, Sipong menyaksikan sendiri peristiwa memilukan itu. Membuat nuraninya memberontak. Amarah dan dendam pun merasukinya. Dia bersumpah untuk menebus rasa bersalahnya, membalaskan nasib rakyat yang hidupnya ditindas.
+                   
+                   “Aku akan membalaskan dendam mereka. Meski bukan hari ini, esok pasti. Aku akan mempersembahkan kepala penguasa biadab itu pada mereka, para martir yang mengharapkan sebuah hari penebusan!”
+                   
+                   Ini adalah kisah mereka yang mungkin belum pernah kita ketahui. Kisah mereka yang menggugat, mencari keadilan hingga mati. Kisah yang terjadi dengan latar sejarah tahun 1809, saat pembangunan Jalan Raya Pos terjadi. Sebuah fiksi sejarah dengan setting di Grisse (nama Gresik pada masa itu), Jawa Timur.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/horor7.jpeg" alt="" class="book-image" id="bookImage-7" onclick="openPopup()">
+         </div>
+         <p><strong>Kisah Tanah Jawa </strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">125k</i>
+           <i class="fa-solid fa-heart">37k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-7">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Kisah Tanah Jawa</h2>
+         <p class="author">Bonaventura Genta</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/horor7.jpeg" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Walisdi.
+   
+                   Walisdi.
+                   
+                   Walisdi.
+                   
+                   Sebut namanya tiga kali sambil menutup mata. Itu adalah cara paling mudah untuk memanggil sosok Pocong Gundul.
+                   
+                   Walisdi adalah dukun ilmu hitam yang memiliki dendam masa lalu sehingga ia ingin menjadi orang yang sakti. Sayangnya, cara yang digunakan membuatnya harus melakukan perjanjian dengan sosok gaib banaswati. Dalam pengabdiannya itu, Walisdi menjelma menjadi Pocong Gundul dengan energi paling kuat. Ia bisa muncul kapan saja saat kita memikirkannya.
+                   
+                   Dalam buku Kisah Tanah Jawa: Pocong Gundul, kita diajak untuk mengikuti perjalanan hidup Walisdi di masa lalu. Kemudian, melihat peristiwa-peristiwa yang terjadi di sebuah sekolah yang disinyalir menjadi tempatnya dimakamkan.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/horor8.jpeg" alt="Laut Bercerita" class="book-image" id="bookImage-8" onclick="openPopup()">
+         </div>
+         <p><strong>Hantu Di 13 Kota</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">175k</i>
+           <i class="fa-solid fa-heart">67k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-8">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Hantu Di 13 Kota</h2>
+         <p class="author">Teguh Suryanto</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/horor8.jpeg" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Buku ini berisi kisah fiksi. Menceritakan berbagai kisah horor yang merupakan cerita fiktif maupun berdasarkan pengalaman beberapa sahabat dalam melakukan perjalanan keliling Indonesia. Beberapa kisah horor mengenai tempat atau benda yang dialami telah berhasil dibukukan menjadi buku ini. Berbagai kisah horor menakutkan yang menggambarkan suatu benda maupun suatu tempat yang penuh misteri dapat Anda nikmati dengan membaca buku ini. Bagi Anda yang suka dengan kisah horor, dan mempunyai nyali besar, tidak ada salahnya membaca buku yang satu ini.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   
+   </section>
+       
+       <h1 class="judul">Romantis</h1>
+       <section class="row utama overflow-auto flex-nowrap">
+         <div class="col-md-3">
+             <div class="book-card">
+                 <div class="image">
+                     <img src="../foto/buku 1.jpg" alt="" class="book-image" id="bookImage-9" onclick="openPopup()">
+                 </div>
+                 <p><strong>Married With An Actor</strong></p>
+                 <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">100k</i>
+                   <i class="fa-solid fa-heart"> 25k</i>
+                 </div>
+             </div>
+         </div>
+                    <!-- Popup Overlay -->
+           <div class="popup-overlay hidden" id="popup-9">
+             <div class="popup-content">
+                 <!-- Judul Buku di Atas Gambar -->
+                 <h2>Married With An Actor</h2>
+                 <p class="author">VhieRheplie</p>
+                 <!-- Isi Popup dengan Gambar dan Sinopsis -->
+                 <div class="popup-body">
+                     <!-- Gambar Buku -->
+                     <img src="../foto/buku 1.jpg" alt="Laut Bercerita" class="popup-image">
+                     <!-- Sinopsis Buku -->
+                     <div class="popup-synopsis">
+                         <p>Dua manusia dengan latar belakang berbeda dipertemukan dan terlibat kisah cinta rumit dan berliku. Adalah Aura Malikha Permana, seorang pebisnis fashion dan salah satu pewaris perusahaan broadasting ternama harus menikah dengan Richard Sky seorang aktor dan penyanyi terkenal. Pernikahan mereka didasari akan ambisi dan harus mengalami pertentangan dari pihak
+                           keluarga. Dapatkah mereka bersatu? Dapatkah cinta menyapa hati mereka?
+                          
+                          Ketika kulihat kesungguhan cinta itu, sang waktulah yang tak berpihak kepadaku ~Aura Malikha~
+                          
+                          Aku memang pandai bersandiwara, namun cintaku padamu bukanlah sandiwara
+                          ~Richard Sky~</p>
+                          <div class="content">
+                            <a href="./html2/showmore3.html" class="showmore" target="_blank">Show More</a>
+                       </div>
+                     </div>
+                 </div>
+                 <!-- Tombol Tutup -->
+                 <button onclick="closePopup('openPopup')" class="close-btn">X</button>
+             </div>
+         </div>
+         <div class="col-md-3">
+           <div class="book-card">
+               <div class="image">
+                   <img src="../foto/buku 2.jpg" alt="" class="book-image" id="bookImage-10" onclick="openPopup()">
+               </div>
+               <p><strong>Nothing (im)possible</strong></p>
+               <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">50k</i>
+                   <i class="fa-solid fa-heart"> 16k</i>
+               </div>
+           </div>
+       </div>
+                  <!-- Popup Overlay -->
+         <div class="popup-overlay hidden" id="popup-10">
+           <div class="popup-content">
+               <!-- Judul Buku di Atas Gambar -->
+               <h2 class="Kosan" >Nothing (im)possible</h2>
+               <p class="author">AudhiDaiii</p>
+               <!-- Isi Popup dengan Gambar dan Sinopsis -->
+               <div class="popup-body">
+                   <!-- Gambar Buku -->
+                   <img src="../foto/buku 2.jpg" alt="" class="popup-image">
+                   <!-- Sinopsis Buku -->
+                   <div class="popup-synopsis">
+                       <p>Bagaimana jika kekasihmu meninggalkanmu? Bagaimana jika ia pergi dengan membawa separuh jiwamu bersamanya? Bagaimana jika dia melakukan itu karena suatu kesalahanmu? Apakah kamu akan tetap memperjuangkan cintamu? Atau justru malah meninggalkannya?
+   
+                           Adeeva Leonie Shadrach</p>
+                   </div>
+               </div>
+               <!-- Tombol Tutup -->
+               <button onclick="closePopup('popup-2')" class="close-btn">X</button>
+           </div>
+       </div>
+   
+       <div class="col-md-3">
+         <div class="book-card">
+             <div class="image">
+                 <img src="../foto/buku 3.jpg" alt="" class="book-image" id="bookImage-11" onclick="openPopup()">
+             </div>
+             <p><strong>Hallo, Mr. Cold</strong></p>
+             <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x"> 212k</i>
+               <i class="fa-solid fa-heart"> 25k</i>
+             </div>
+         </div>
+     </div>
+                <!-- Popup Overlay -->
+       <div class="popup-overlay hidden" id="popup-11">
+         <div class="popup-content">
+             <!-- Judul Buku di Atas Gambar -->
+             <h2>Hallo, Mr. Cold</h2>
+             <p class="author">echafardhia</p>
+             
+             <!-- Isi Popup dengan Gambar dan Sinopsis -->
+             <div class="popup-body">
+                 <!-- Gambar Buku -->
+                 <img src="../foto/buku 3.jpg" alt="" class="popup-image">
+                 
+                 <!-- Sinopsis Buku -->
+                 <div class="popup-synopsis">
+                     <p>Jonathan Tanjaya , duda tampan beranak tiga serta mapan, pergi untuk menerima rapor ketiga putranya untuk pertama kali. Sejak saat itu juga, datang menjemput putranya menjadi kegiatan yang paling disukainya sepanjang tiga puluh tiga tahun hidupnya.
+           
+           
+                       Rachael Wijaya, guru SD Internasional, yang sudah berkali-kali ingin mengundurkan diri. Menjadi guru selama 10 tahun hidupnya membuatnya sudah memiliki nama-nama yang patut dihindari untuk diberikan kepada anaknya kelak. Vincent, Kevin, Jonathan, Marvel, dan Alexander. Nama-nama anak nakal!</p>
+                 </div>
+             </div>
+             
+             
+             <!-- Tombol Tutup -->
+             <button onclick="closePopup()" class="close-btn">X</button>
+         </div>
+     </div>
+   
+     <div class="col-md-3">
+       <div class="book-card">
+           <div class="image">
+               <img src="../foto/buku 4.jpg" alt="" class="book-image" id="bookImage-12" onclick="openPopup()">
+           </div>
+           <p><strong>Sweetest Karma</strong></p>
+           <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">155k</i>
+                     <i class="fa-solid fa-heart"> 27k</i>
+           </div>
+       </div>
+   </div>
+              <!-- Popup Overlay -->
+     <div class="popup-overlay hidden" id="popup-12">
+       <div class="popup-content">
+           <!-- Judul Buku di Atas Gambar -->
+           <h2>Sweetest Karma</h2>
+           <p class="author">lynchan</p>
+           
+           <!-- Isi Popup dengan Gambar dan Sinopsis -->
+           <div class="popup-body">
+               <!-- Gambar Buku -->
+               <img src="../foto/buku 4.jpg" alt="" class="popup-image">
+               
+               <!-- Sinopsis Buku -->
+               <div class="popup-synopsis">
+                   <p>kalea, ia terus menangis meraung-raung saat melihat pemandangan hina yang membuatnya benar-benar sakit hati. Joska dan Dora, mereka dengan teganya menghianatinya dengan sebuah ciuman menjijikan yang mereka lakukan.
+     
+                       Kalea memutuskan untuk pergi meninggalkan dua manusia penghianat itu walaupun Dora memanggilnya berulang kali, tapi Kaela tetap acuh.
+                       
+                       Hingga ia kini menabrak seorang pria yang tangah menatapnya tajam. Si es batu.
+                       
+                       Tanpa disangka hari terus berganti, dengan santainya kedua orangtua Kaela mengatakan kalau Kaela akan dijodohkan dengan anak teman mereka sejak kecil.
+                       
+                       Tentu saja itu membuat Kaela terkejut bukan main pasalnya ia tidak menyangka kalau orang yang akan dijodohkan dengannya adalah Kinnard Abelano, si es batu.</p>
+               </div>
+           </div>
+           
+           
+           <!-- Tombol Tutup -->
+           <button onclick="closePopup()" class="close-btn">X</button>
+       </div>
+   </div>
+   
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/buku 5.jpg" alt="" class="book-image" id="bookImage-13" onclick="openPopup()">
+         </div>
+         <p><strong>Proposal For Wedding</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x"> 417k</i>
+           <i class="fa-solid fa-heart"> 16k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-13">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Proposal For Wedding</h2>
+         <p class="author">DesyMiladiana</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/buku 5.jpg" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Didesak untuk segera menikah, Ersa mendapati jalan keluar dengan memberikan proposal pernikahan kepada sahabatnya Ervan. Ervan yang juga diminta untuk segera menikah karena menghambat adik laki-lakinya menuju ke pelaminan, akhirnya menyetujui proposal Ersa.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/buku 6.jpg" alt="" class="book-image" id="bookImage-14" onclick="openPopup()">
+         </div>
+         <p><strong>Sisakan Aku Waktu</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">100k</i>
+           <i class="fa-solid fa-heart"> 16k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-14">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Sisakan Aku Waktu</h2>
+         <p class="author">sofiaaroses</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/buku 6.jpg" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Adam Fawaaz, dianugerahkan tuhan satu kelebihan; dia dapat melihat kisah silam setiap manusia yang bertentang mata dengannya. Namun itu adalah hal yang paling dia benci tentang dirinya. Baginya, ia merupakan suatu sumpahan dari tuhan.
+   
+                   Sehingga takdir menemukannya dengan Qayla. Dan ketika itu, keajaiban terbesar dalam hidupnya berlaku.
+                   
+                   Dia....
+                   Tidak dapat melihat kisah silam gadis itu disaat mata mereka bertaut. 
+                   
+                   "Why are you different Qayla?" Dia ingin tahu lebih banyak tentang gadis itu. Dia ingin tahu kenapa gadis itu istimewa.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/buku 7.jpg" alt="" class="book-image" id="bookImage-15" onclick="openPopup()">
+         </div>
+         <p><strong>DEAR ALETHA </strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">210k</i>
+           <i class="fa-solid fa-heart"> 22k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-15">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>DEAR ALETHA</h2>
+         <p class="author">noir13</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/buku 7.jpg" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>#1 NOVELINDONESIA
+   
+                   Dear Aletha Winter, even a white rose has a black shadow.
+                       
+                       P.s : Tragic shit, roller coaster also ninjas cutting onions. This story will break your heart in to pieces. So, r u ready?</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/buku 8.jpg" alt="Laut Bercerita" class="book-image" id="bookImage-16" onclick="openPopup()">
+         </div>
+         <p><strong>Na!</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x"> 170k</i>
+           <i class="fa-solid fa-heart"> 16k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-16">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Na!</h2>
+         <p class="author">iyaiyayas</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/buku 8.jpg" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>"Na, tau nggak bedanya kipas sama elo?"
+   
+                   "Apa?"
+                   
+                   "Kalau kipas bikin angin. Kalau lo, bikin angen."
+                   
+                   "....."</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   
+     </section>
+   
+       <h1 class="judul">Fiksi</h1>
+       <section class="row utama overflow-auto flex-nowrap">
+         <div class="col-md-3">
+             <div class="book-card">
+                 <div class="image">
+                     <img src="../foto/rekomendasi1.jpeg" alt="" class="book-image" id="bookImage-17" onclick="openPopup()">
+                 </div>
+                 <p><strong>Laut Bercerita</strong></p>
+                 <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">320k</i>
+                   <i class="fa-solid fa-heart">225k</i>
+                 </div>
+             </div>
+         </div>
+                    <!-- Popup Overlay -->
+           <div class="popup-overlay hidden" id="popup-17">
+             <div class="popup-content">
+                 <!-- Judul Buku di Atas Gambar -->
+                 <h2>Laut Bercerita</h2>
+                 <p class="author">Leila S. Chudori</p>
+                 <!-- Isi Popup dengan Gambar dan Sinopsis -->
+                 <div class="popup-body">
+                     <!-- Gambar Buku -->
+                     <img src="../foto/rekomendasi1.jpeg" alt="Laut Bercerita" class="popup-image">
+                     <!-- Sinopsis Buku -->
+                     <div class="popup-synopsis">
+                         <p>Dua manusia dengan latar belakang berbeda dipertemukan dan terlibat kisah cinta rumit dan berliku. Adalah Aura Malikha Permana, seorang pebisnis fashion dan salah satu pewaris perusahaan broadasting ternama harus menikah dengan Richard Sky seorang aktor dan penyanyi terkenal. Pernikahan mereka didasari akan ambisi dan harus mengalami pertentangan dari pihak keluarga. Dapatkah mereka bersatu? Dapatkah cinta menyapa hati mereka? Ketika kulihat kesungguhan cinta itu, sang waktulah yang tak berpihak kepadaku Aura Malikha Aku memang pandai bersandiwara, namun cintaku padamu bukanlah sandiwara Richard Sky</p>
+                         <div class="content">
+                            <a href="../html/showmore.html" class="showmore " target="_blank" style="margin-left: 100px;">Show More</a>
+                          </div>
+                     </div>
+                 </div>
+                 <!-- Tombol Tutup -->
+                 <button onclick="closePopup('openPopup')" class="close-btn">X</button>
+             </div>
+         </div>
+         <div class="col-md-3">
+           <div class="book-card">
+               <div class="image">
+                   <img src="../foto/kosan.jpeg" alt="" class="book-image" id="bookImage-18" onclick="openPopup()">
+               </div>
+               <p><strong>1 Kos 3 Cinta 7 Keberuntungan</strong></p>
+               <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">150k</i>
+                   <i class="fa-solid fa-heart">75.6</i>
+               </div>
+           </div>
+       </div>
+                  <!-- Popup Overlay -->
+         <div class="popup-overlay hidden" id="popup-18">
+           <div class="popup-content">
+               <!-- Judul Buku di Atas Gambar -->
+               <h2 class="Kosan" >1 Kos 3 Cinta 7 Keberuntungan</h2>
+               <p class="author">Astrid Tito</p>
+               <!-- Isi Popup dengan Gambar dan Sinopsis -->
+               <div class="popup-body">
+                   <!-- Gambar Buku -->
+                   <img src="../foto/kosan.jpeg" alt="" class="popup-image">
+                   <!-- Sinopsis Buku -->
+                   <div class="popup-synopsis">
+                       <p>Novel komedi romantis yang mengisahkan kehidupan sekelompok penghuni kos-kosan dengan berbagai latar belakang unik. Fokus cerita ada pada tiga penghuni utama—Aldi, Maya, dan Raka—yang menjalani keseharian penuh dinamika, persahabatan, dan percikan cinta.
+   
+                           Mereka menghadapi konflik lucu, kesalahpahaman, dan situasi tak terduga yang kerap berujung pada momen berharga tentang arti cinta dan keberuntungan. Dalam keseharian mereka yang penuh warna, keberuntungan datang dari tempat tak terduga, membuktikan bahwa hidup sederhana di kos-kosan pun bisa dipenuhi kejutan manis.
+                           
+                           Cerita ini menggambarkan betapa kehidupan bersama orang lain, meski seringkali rumit, tetap bisa membawa kebahagiaan.</p>
+                   </div>
+               </div>
+               <!-- Tombol Tutup -->
+               <button onclick="closePopup('popup-2')" class="close-btn">X</button>
+           </div>
+       </div>
+   
+       <div class="col-md-3">
+         <div class="book-card">
+             <div class="image">
+                 <img src="../foto/Jakarta_Sebelum_Pagi.jpg" alt="" class="book-image" id="bookImage-19" onclick="openPopup()">
+             </div>
+             <p><strong>Jakarta Sebelum Pagi</strong></p>
+             <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">230k</i>
+               <i class="fa-solid fa-heart">129k</i>
+             </div>
+         </div>
+     </div>
+                <!-- Popup Overlay -->
+       <div class="popup-overlay hidden" id="popup-19">
+         <div class="popup-content">
+             <!-- Judul Buku di Atas Gambar -->
+             <h2>Jakarta Sebelum Pagi</h2>
+             <p class="author"> Ziggy Z.</p>
+             
+             <!-- Isi Popup dengan Gambar dan Sinopsis -->
+             <div class="popup-body">
+                 <!-- Gambar Buku -->
+                 <img src="../foto/Jakarta_Sebelum_Pagi.jpg" alt="" class="popup-image">
+                 
+                 <!-- Sinopsis Buku -->
+                 <div class="popup-synopsis">
+                     <p>Jakarta Sebelum Pagi adalah novel yang menggambarkan perjalanan seorang perempuan muda yang menjelajahi sisi lain Jakarta di waktu-waktu sebelum pagi, saat kota terasa lebih sunyi dan penuh misteri. Dalam upayanya mencari arti hidup, ia bertemu dengan berbagai tokoh unik dan menyaksikan peristiwa-peristiwa tak biasa yang memaksanya merenungkan cinta, kehilangan, dan hubungan manusia dengan lingkungan sekitarnya.
+   
+                       Melalui narasi yang penuh keindahan dan suasana surreal, novel ini mengajak pembaca untuk melihat Jakarta dari perspektif yang berbeda—sebuah kota yang tidak hanya sibuk, tetapi juga penuh rahasia di balik hiruk-pikuknya. "Jakarta Sebelum Pagi" adalah refleksi tentang mencari kedamaian di tengah kekacauan.</p>
+                 </div>
+             </div>
+             
+             
+             <!-- Tombol Tutup -->
+             <button onclick="closePopup()" class="close-btn">X</button>
+         </div>
+     </div>
+   
+     <div class="col-md-3">
+       <div class="book-card">
+           <div class="image">
+               <img src="../foto/Bumi Tereliye.jpg" alt="" class="book-image" id="bookImage-20" onclick="openPopup()">
+           </div>
+           <p><strong>Bumi</strong></p>
+           <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">170k</i>
+               <i class="fa-solid fa-heart">79.6k</i>
+           </div>
+       </div>
+   </div>
+              <!-- Popup Overlay -->
+     <div class="popup-overlay hidden" id="popup-20">
+       <div class="popup-content">
+           <!-- Judul Buku di Atas Gambar -->
+           <h2>Bumi</h2>
+           <p class="author">Tere Liye</p>
+           
+           <!-- Isi Popup dengan Gambar dan Sinopsis -->
+           <div class="popup-body">
+               <!-- Gambar Buku -->
+               <img src="../foto/Bumi Tereliye.jpg" alt="" class="popup-image">
+               
+               <!-- Sinopsis Buku -->
+               <div class="popup-synopsis">
+                   <p>Bumi karya Tere Liye adalah novel fantasi yang mengisahkan perjalanan Raib, seorang remaja yang memiliki kemampuan luar biasa untuk menghilang. Bersama dua temannya, Seli yang bisa mengendalikan petir dan Ali yang jenius, mereka menemukan dunia paralel yang penuh misteri dan petualangan. 
+   
+                       Dalam dunia ini, mereka menghadapi tantangan berbahaya, mengungkap rahasia besar, dan belajar tentang keberanian, persahabatan, serta tanggung jawab atas kekuatan mereka. "Bumi" adalah awal dari seri petualangan seru di dunia-dunia yang penuh keajaiban.</p>
+               </div>
+           </div>
+           
+           
+           <!-- Tombol Tutup -->
+           <button onclick="closePopup()" class="close-btn">X</button>
+       </div>
+   </div>
+   
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/toko kelontong.jpeg" alt="" class="book-image" id="bookImage-21" onclick="openPopup()">
+         </div>
+         <p><strong>Keajaiban Toko Kelontong Namiya</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">125k</i>
+                 <i class="fa-solid fa-heart">65k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-21">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Keajaiban Toko Kelontong Namiya</h2>
+         <p class="author">Keigo Higashino</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/toko kelontong.jpeg" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Keajaiban Toko Kelontong Namiya karya Keigo Higashino adalah novel yang mengisahkan tiga pemuda—Shota, Atsuya, dan Kohei—yang bersembunyi di sebuah toko kelontong tua setelah melakukan pencurian. Tanpa sengaja, mereka menemukan surat-surat permintaan nasihat dari masa lalu yang muncul secara ajaib di kotak pos toko tersebut.
+   
+                   Meskipun awalnya enggan, mereka mulai membalas surat-surat itu, memberikan nasihat kepada para pengirim yang hidup di masa yang berbeda. Seiring berjalannya waktu, mereka menyadari bahwa balasan mereka membawa dampak besar bagi kehidupan orang lain sekaligus mengubah cara pandang mereka tentang kehidupan, penyesalan, dan makna kebaikan.
+                   
+                   Novel ini memadukan unsur magis dan emosi mendalam, menghadirkan kisah menyentuh tentang hubungan manusia yang melampaui batas waktu. "Keajaiban Toko Kelontong Namiya" adalah refleksi tentang pentingnya empati dan bagaimana tindakan kecil dapat membawa perubahan besar.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/cantik itu luka.jpeg" alt="" class="book-image" id="bookImage-22" onclick="openPopup()">
+         </div>
+         <p><strong>Cantik Itu Luka</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">140k</i>
+           <i class="fa-solid fa-heart">55.3k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-22">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Cantik Itu Luka</h2>
+         <p class="author">Eka Kurniawan</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/cantik itu luka.jpeg" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Cantik Itu Luka karya Eka Kurniawan adalah novel yang mengisahkan kehidupan Dewi Ayu, seorang wanita cantik yang terlahir dengan nasib penuh penderitaan. Dewi Ayu dibesarkan dalam situasi yang penuh kekerasan, ketidakadilan, dan pencarian akan cinta yang tak pernah terbalaskan. Ia hidup di sebuah kota kecil yang terletak di Indonesia, di tengah pergolakan sejarah dan sosial.
+   
+                   Cerita ini mengungkapkan kisahnya dari masa muda hingga tua, menggambarkan keindahan, kekuatan, dan penderitaan yang menyertainya. Dewi Ayu memiliki tiga anak perempuan yang masing-masing memiliki kisah dan nasibnya sendiri yang tragis. Kehidupan mereka saling terkait dalam cara yang kompleks, membentuk kisah tentang cinta, balas dendam, dan pencarian identitas.
+                   
+                   Dengan latar belakang sejarah Indonesia yang kelam, "Cantik Itu Luka" mengeksplorasi tema-tema berat seperti kesetiaan, penderitaan, dan keinginan untuk bebas dari belenggu takdir, sambil menunjukkan bagaimana kecantikan fisik bisa membawa kebahagiaan dan penderitaan dalam waktu yang bersamaan.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/5cm.jpg" alt="" class="book-image" id="bookImage-23" onclick="openPopup()">
+         </div>
+         <p><strong>5 Cm </strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">177k</i>
+           <i class="fa-solid fa-heart">67.2</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-23">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>5 Cm</h2>
+         <p class="author">Donny Dhirgantoro</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/5cm.jpg" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>5cm karya Donny Dhirgantoro adalah novel yang mengisahkan persahabatan lima sahabat—Genta, Riani, Zafran, Arial, dan Ian—yang telah lama berteman dan sering merasakan kehidupan mereka penuh rutinitas dan kebosanan. Suatu hari, mereka memutuskan untuk melakukan perjalanan mendaki gunung, dengan tujuan mencapai puncak Mahameru, puncak tertinggi di Jawa, untuk merayakan persahabatan mereka.
+   
+                   Dalam perjalanan mendaki, mereka menghadapi tantangan fisik dan emosional yang menguji kekuatan, keberanian, dan hubungan persahabatan mereka. Puncak Mahameru menjadi simbol pencapaian, bukan hanya untuk menggapai ketinggian, tetapi juga untuk memahami arti kehidupan, impian, dan tujuan mereka masing-masing.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/Daun yang.jpeg" alt="Laut Bercerita" class="book-image" id="bookImage-24" onclick="openPopup()">
+         </div>
+         <p><strong>Daun Yang Tak Pernah Membenci Angin</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">154k</i>
+           <i class="fa-solid fa-heart">50k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-24">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Daun Yang Tak Pernah Membenci Angin</h2>
+         <p class="author">Tere Liye</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/Daun yang.jpeg" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Daun yang Tak Pernah Membenci Angin adalah novel karya Tere Liye yang mengisahkan perjalanan emosional seorang gadis bernama Tania. Tania, yang hidup dalam kemiskinan bersama adiknya, mendapatkan bantuan dari seorang pria dewasa bernama Danar. Danar menjadi sosok kakak sekaligus pahlawan bagi Tania, memberikan pendidikan, harapan, dan kehidupan yang lebih baik.
+                       
+                   Namun, seiring berjalannya waktu, perasaan Tania terhadap Danar berubah menjadi cinta. Konflik muncul karena cinta itu tumbuh di tengah jurang perbedaan usia dan hubungan yang tidak seharusnya. Tania harus menghadapi dilema besar antara cinta dan rasa hormatnya kepada Danar, yang melihatnya hanya sebagai adik.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+     </section>
+   
+       <h1 class="judul">Action</h1>
+       <section class="row utama overflow-auto flex-nowrap">
+         <div class="col-md-3">
+             <div class="book-card">
+                 <div class="image">
+                     <img src="../foto/action1.jpeg" alt="" class="book-image" id="bookImage-25" onclick="openPopup()">
+                 </div>
+                 <p><strong>Red Queen</strong></p>
+                 <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">152k</i>
+                   <i class="fa-solid fa-heart">45.3k</i>
+                 </div>
+             </div>
+         </div>
+                    <!-- Popup Overlay -->
+           <div class="popup-overlay hidden" id="popup-25">
+             <div class="popup-content">
+                 <!-- Judul Buku di Atas Gambar -->
+                 <h2>Red Queen</h2>
+                 <p class="author">Victoria Aveyard</p>
+                 <!-- Isi Popup dengan Gambar dan Sinopsis -->
+                 <div class="popup-body">
+                     <!-- Gambar Buku -->
+                     <img src="../foto/action1.jpeg" alt="Laut Bercerita" class="popup-image">
+                     <!-- Sinopsis Buku -->
+                     <div class="popup-synopsis">
+                         <p>Red Queen adalah novel roman fantasi distopia dewasa muda yang ditulis oleh penulis Amerika Victoria Aveyard. Diterbitkan pada bulan Februari 2015, itu adalah novel dan seri pertamanya. Aveyard menindaklanjuti dengan tiga sekuel: Glass Sword, King's Cage dan War Storm.</p>
+                     </div>
+                     <div class="content">
+                      <a href="./html2/showmore3.html" class="showmore" target="_blank">Show More</a>
+                 </div>
+                 </div>
+                 <!-- Tombol Tutup -->
+                 <button onclick="closePopup('openPopup')" class="close-btn">X</button>
+             </div>
+         </div>
+         <div class="col-md-3">
+           <div class="book-card">
+               <div class="image">
+                   <img src="../foto/action2.jpeg" alt="" class="book-image" id="bookImage-26" onclick="openPopup()">
+               </div>
+               <p><strong>Sandera</strong></p>
+               <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">128k</i>
+                   <i class="fa-solid fa-heart">55k</i>
+               </div>
+           </div>
+       </div>
+                  <!-- Popup Overlay -->
+         <div class="popup-overlay hidden" id="popup-26">
+           <div class="popup-content">
+               <!-- Judul Buku di Atas Gambar -->
+               <h2 class="Kosan" >Sandera</h2>
+               <p class="author">Brahmanto Anindito</p>
+               <!-- Isi Popup dengan Gambar dan Sinopsis -->
+               <div class="popup-body">
+                   <!-- Gambar Buku -->
+                   <img src="../foto/action2.jpeg" alt="" class="popup-image">
+                   <!-- Sinopsis Buku -->
+                   <div class="popup-synopsis">
+                       <p>Tiga Sandera Terakhir boleh jadi merupakan novel pertama di Indonesia yang menjadikan dunia militer atau Kopassus sebagai latarnya.[1] Dalam teknik penceritaannya, novel ini menggunakan sudut pandang orang ketiga, yaitu sudut pandang sandera/penyandera dan tim pembebas sandera (baik militer maupun sipil). Terdiri dari 52 bab pendek, cerita Tiga Sandera Terakhir ditulis dengan kalimat-kalimat yang sederhana dan bernas.
+   
+                           Setengah bagian pertama Tiga Sandera Terakhir terinspirasi dari kejadian nyata, yakni krisis sandera Mapenduma, tragedi kemanusiaan yang melibatkan para peneliti Lorentz '95 sebagai korban. Namun di bab "Di Balik Halaman: Sebuah Pengantar" novelnya, pengarang menyebut bahwa karyanya ini secara keseluruhan lebih tepat disebut fiksi.</p>
+                   </div>
+               </div>
+               <!-- Tombol Tutup -->
+               <button onclick="closePopup('popup-2')" class="close-btn">X</button>
+           </div>
+       </div>
+   
+       <div class="col-md-3">
+         <div class="book-card">
+             <div class="image">
+                 <img src="../foto/action3.jpeg" alt="" class="book-image" id="bookImage-27" onclick="openPopup()">
+             </div>
+             <p><strong>Divergent</strong></p>
+             <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">132k</i>
+               <i class="fa-solid fa-heart">33k</i>
+             </div>
+         </div>
+     </div>
+                <!-- Popup Overlay -->
+       <div class="popup-overlay hidden" id="popup-27">
+         <div class="popup-content">
+             <!-- Judul Buku di Atas Gambar -->
+             <h2>Divergent</h2>
+             <p class="author">Veronica Roth</p>
+             
+             <!-- Isi Popup dengan Gambar dan Sinopsis -->
+             <div class="popup-body">
+                 <!-- Gambar Buku -->
+                 <img src="../foto/action3.jpeg" alt="" class="popup-image">
+                 
+                 <!-- Sinopsis Buku -->
+                 <div class="popup-synopsis">
+                     <p>Divergent adalah novel fiksi ilmiah karya penulis Amerika Serikat Veronica Roth. Berlatar tempat di Chicago masa depan, novel ini merupakan seri pertama dalam trilogi Divergent. Divergent kerap dibanding-bandingkan dengan novel remaja sejenis seperti The Hunger Games dan The Maze Runner karena kesamaan tema dan target pembacanya. Roth berkata bahwa ide cerita Divergent muncul saat ia masih berkuliah. Plot utama novel ini adalah mengenai pembagian masyarakat ke dalam berbagai jenis faksi menurut kepribadian, mirip dengan novel Clans of the Alphane Moon (1964) karya Philip K. Dick.</p>
+                 </div>
+             </div>
+             
+             
+             <!-- Tombol Tutup -->
+             <button onclick="closePopup()" class="close-btn">X</button>
+         </div>
+     </div>
+   
+     <div class="col-md-3">
+       <div class="book-card">
+           <div class="image">
+               <img src="../foto/action4.jpeg" alt="" class="book-image" id="bookImage-28" onclick="openPopup()">
+           </div>
+           <p><strong>Tanah Para Bandit</strong></p>
+           <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">122k</i>
+               <i class="fa-solid fa-heart">35k</i>
+           </div>
+       </div>
+   </div>
+              <!-- Popup Overlay -->
+     <div class="popup-overlay hidden" id="popup-28">
+       <div class="popup-content">
+           <!-- Judul Buku di Atas Gambar -->
+           <h2>Tanah Para Bandit</h2>
+           <p class="author">Tere Liye</p>
+           
+           <!-- Isi Popup dengan Gambar dan Sinopsis -->
+           <div class="popup-body">
+               <!-- Gambar Buku -->
+               <img src="../foto/action4.jpeg" alt="" class="popup-image">
+               
+               <!-- Sinopsis Buku -->
+               <div class="popup-synopsis">
+                   <p>Di sini, para penjahat dibesarkan sejak buaian.
+                       Dilatih lewat kebohongan. Dididik dengan kemunafikan.
+                       Diajarkan melalui ketidakpedulian.
+                       
+                       Di sini, semua bisa diatur sepanjang ada uangnya.
+                       Yang bodoh bisa menjadi pintar seketika. Yang tidak layak bisa segera memenuhi syarat. Yang bersalah bisa jadi benar.
+                       Yang bengkok bisa diluruskan. Tidak suka lurus? Mari dibengkokkan lagi.
+                       
+                       Di sini, di Tanah Para Bandit, tidak ada lagi beda antara penjahat bejat dengan tuan nyonya terhormat. Mencuri, merampok hak orang lain, lumrah saja.
+                       Ayo, jangan terlalu serius, Kawan. Kita berpesta malam ini.
+                       
+                       Buku ini adalah buku ke-7 dari serial aksi Tere Liye. Setelah: Negeri Para Bedebah, Negeri Di Ujung Tanduk, Pulang, Pergi, Pulang-Pergi, dan Bedebah Di Ujung Tanduk.</p>
+               </div>
+           </div>
+           
+           
+           <!-- Tombol Tutup -->
+           <button onclick="closePopup()" class="close-btn">X</button>
+       </div>
+   </div>
+   
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/action5.jpeg" alt="" class="book-image" id="bookImage-29" onclick="openPopup()">
+         </div>
+         <p><strong>Negeri Para Bedebah</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">172k</i>
+                   <i class="fa-solid fa-heart">45k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-29">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Negeri Para Bedebah</h2>
+         <p class="author"> Tere Liye</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/action5.jpeg" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Negeri para bedebah, negerinya para musang berbulu domba, negerinya pencuri berdasi. Tempat dimana kehidupan terasa jauh lebih fiksi dari pada novel fiksi itu sendiri. Dimana realita terasa jauh lebih nyata.
+   
+   
+                   Sebab di negeri para bedebah segala hal bisa terjadi selama melibatkan materi dan kedudukan. Manusia bisa berubah menjadi musang paling manipulatif selama itu demi kekayaan. Namun di negeri para bedebah pula masih menyimpan kebaikan, kemanusiaan dan kesetiaan.
+                   
+                   Tere liye dan karyanya selalu menjadi legenda. Sebagai salah satu penulis asli Indonesia yang paling rajin menduduki jajaran best seller, Tere Liye kembali menyajikan sebuah karya tulis dengan warna yang berbeda, Negeri Para Bedebah.
+                   
+                   Jika biasanya kita selalu melihat kisah-kisah romantis anak manusia, kali ini Tere Liye mengajak kita masuk ke dalam dunia baru yang jauh lebih luas melalui karyanya ini. dunia politik, ekonomi hingga hukum.
+                   
+                   
+                   Seperti biasa, tanpa tanggung-tanggung Tere Liye memberikan berbagai hasil penelusuran, pembelajaran dan ilmunya pada kita melalui setiap inci cerita untuk memberikan nuansa baru yang terasa amat nyata.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/action6.jpeg" alt="" class="book-image" id="bookImage-30" onclick="openPopup()">
+         </div>
+         <p><strong>The Davinci Code</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">154k</i>
+           <i class="fa-solid fa-heart">46k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-30">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>The Davinci Code</h2>
+         <p class="author">Dan Brown</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/action6.jpeg" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>The Da Vinci Code adalah sebuah novel detektif misteri karya Dan Brown. Novel ini menceritakan simbolog Robert Langdon dan kriptolog Sophie Neveu setelah suatu peristiwa pembunuhan di Museum Louvre di Paris, ketika mereka menjadi terlibat dalam pertarungan antara Biarawan Sion dan Opus Dei terkait kemungkinan bahwa apakah Yesus Kristus menikahi Maria Magdalena. Judul novel ini antara lain merujuk pada temuan korban pembunuhan pertama di Museum Louvre dengan kondisi telanjang dan posisi seperti Vitruvian Man, gambar terkenal Leonardo da Vinci, serta sebuah pesan tersembunyi yang ditulis di samping tubuhnya dan sebuah pentagram tergambar di dadanya dengan darahnya sendiri.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/action7.jpeg" alt="" class="book-image" id="bookImage-31" onclick="openPopup()">
+         </div>
+         <p><strong>The Bourne Identity  </strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">133k</i>
+           <i class="fa-solid fa-heart">25.7</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-31">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>The Bourne Identity </h2>
+         <p class="author">Robert Ludlum</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/action7.jpeg" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>The Bourne Identity adalah sebuah film thriller[1] produksi Amerika Seriakt-Jerman tahun 2002. Film ini merupakan adaptasi dari novel Robert Ludlum. Dibintangi oleh Matt Damon sebagai Jason Bourne, seorang pria yang menderita kehilangan memori ekstrem dan mencoba untuk menemukan jati dirinya di tengah-tengah konspirasi gelap yang dilakukan oleh Central Intelligence Agency (CIA). Film ini juga menampilkan Franka Potente, Chris Cooper, Clive Owen, Julia Stiles, Brian Cox dan Adewale Akinnuoye-Agbaje. The Bourne Identity merupakan film pertama dalam serial film Bourne, lalau diikuti oleh The Bourne Supremacy (2004), The Bourne Ultimatum (2007), The Bourne Legacy (2012), dan Jason Bourne (2016).</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/action8.jpeg" alt="Laut Bercerita" class="book-image" id="bookImage-32" onclick="openPopup()">
+         </div>
+         <p><strong>Jurassic Park</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">137k</i>
+           <i class="fa-solid fa-heart">65k</i>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-32">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Jurassic Park</h2>
+         <p class="author">Michael Crichton</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/action8.jpeg" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>“Jurassic Park” berpusat pada sebuah taman hiburan yang dibangun oleh perusahaan bioteknologi InGen, yang berhasil mengkloning dinosaurus dari DNA yang ditemukan dalam nyamuk purba yang terperangkap dalam batu ambar. Taman ini terletak di sebuah pulau terpencil di lepas pantai Kosta Rika dan dirancang untuk menjadi atraksi wisata utama. Namun, berbagai masalah mulai muncul ketika dinosaurus-dinosaurus ini mulai menunjukkan perilaku yang tidak terduga.
+   
+                   Cerita dimulai dengan undangan kepada beberapa ahli, termasuk paleontolog Dr. Alan Grant dan Dr. Ellie Sattler, untuk mengunjungi taman tersebut sebelum dibuka untuk umum. Mereka diundang oleh John Hammond, pendiri InGen, yang ingin mendapatkan persetujuan dari para ahli ini. Namun, selama tur mereka, sistem keamanan taman mengalami kegagalan, menyebabkan dinosaurus-dinosaurus tersebut bebas berkeliaran dan menciptakan kekacauan.
+                   
+                   Alur cerita kemudian berfokus pada upaya para karakter utama untuk bertahan hidup dan melarikan diri dari pulau tersebut. Mereka harus menghadapi berbagai jenis dinosaurus yang berbahaya, termasuk Tyrannosaurus rex dan Velociraptor, sambil mencari cara untuk memperbaiki sistem keamanan taman. Plot ini penuh dengan ketegangan dan aksi, membuat pembaca terus berada di ujung kursi mereka.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+     </section>
+   
+       <h1 class="judul">Thriller</h1>
+       <section class="row utama overflow-auto flex-nowrap">
+         <div class="col-md-3">
+             <div class="book-card">
+                 <div class="image">
+                     <img src="../foto/thriller1.jpeg" alt="" class="book-image" id="bookImage-33" onclick="openPopup()">
+                 </div>
+                 <p><strong>Sang Peramal</strong></p>
+                 <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">130k</i>
+                   <i class="fa-solid fa-heart">54k</i>
+                 </div>
+             </div>
+         </div>
+                    <!-- Popup Overlay -->
+           <div class="popup-overlay hidden" id="popup-33">
+             <div class="popup-content">
+                 <!-- Judul Buku di Atas Gambar -->
+                 <h2>Sang Peramal</h2>
+                 <p class="author">Chandra Bientang</p>
+                 <!-- Isi Popup dengan Gambar dan Sinopsis -->
+                 <div class="popup-body">
+                     <!-- Gambar Buku -->
+                     <img src="../foto/thriller1.jpeg" alt="Laut Bercerita" class="popup-image">
+                     <!-- Sinopsis Buku -->
+                     <div class="popup-synopsis">
+                         <p>Namanya Imar Mulyani. Semua orang menyebutnya Sang Peramal. Dia sering muncul tiap akhir tahun di TV, membacakan nasib-nasib yang tertera pada kartu-karu Tarot-nya. Bencana alam, skandal artis atau pejabat, semua yang buruk-buruk, pokoknya. Yang bisa membuat seluruh Indonesia heboh.
+   
+                           Para kliennya, baik yang terkenal maupun orang biasa, memiliki satu kesamaan: punya rahasia kelam. Ketika suatu hari Imar mendadak hilang, di tengah-tengah jamuan makan malam yang dia selenggarakan, siapa lagi yang harus disalahkan kalau bukan salah satu dari mereka?
+                           
+                           "Ketegangannya dibangun perlahan dari awal dan misterinya sukses bikin terpana. Salah satu buku yang sukses bikin saya tercengang dari awal sampai akhir."</p>
+                     </div>
+                 </div>
+                 <!-- Tombol Tutup -->
+                 <button onclick="closePopup('openPopup')" class="close-btn">X</button>
+             </div>
+         </div>
+         <div class="col-md-3">
+           <div class="book-card">
+               <div class="image">
+                   <img src="../foto/thriller2.jpeg" alt="" class="book-image" id="bookImage-34" onclick="openPopup()">
+               </div>
+               <p><strong>The silent patient</strong></p>
+               <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">133k</i>
+                   <i class="fa-solid fa-heart">57k</i>
+               </div>
+           </div>
+       </div>
+                  <!-- Popup Overlay -->
+         <div class="popup-overlay hidden" id="popup-34">
+           <div class="popup-content">
+               <!-- Judul Buku di Atas Gambar -->
+               <h2 class="Kosan" style="font-size: 5px;">The silent patient</h2>
+               <p class="author">Alex Michaelides</p>
+               <!-- Isi Popup dengan Gambar dan Sinopsis -->
+               <div class="popup-body">
+                   <!-- Gambar Buku -->
+                   <img src="../foto/thriller2.jpeg" alt="" class="popup-image">
+                   <!-- Sinopsis Buku -->
+                   <div class="popup-synopsis">
+                       <p>Pelukis Bisu adalah novel thriller psikologis tahun 2019 yang ditulis oleh penulis Inggris–Siprus Alex Michaelides. Novel debutnya diterbitkan oleh Celadon Books, sebuah divisi dari Penerbit Macmillan, pada 5 Februari 2019.[1] Versi buku audio, dirilis pada tanggal yang sama, dibaca oleh Louise Brealey dan Jack Hawkins.[1] Kisah ini narasi dari seorang psikoterapis Inggris, Theo Faber, berurusan dengan seorang pasien yang berubah menjadi bisu setelah membunuh suaminya. Setelah dirilis, buku tersebut memulai debutnya di The New York Times Daftar Best Seller di No.1.[2] Ia kemudian memenangkan Goodreads Choice Award 2019 dalam kategori Misteri dan Thriller.</p>
+                   </div>
+               </div>
+               <!-- Tombol Tutup -->
+               <button onclick="closePopup('popup-2')" class="close-btn">X</button>
+           </div>
+       </div>
+   
+       <div class="col-md-3">
+         <div class="book-card">
+             <div class="image">
+                 <img src="../foto/thriller3.jpeg" alt="" class="book-image" id="bookImage-35" onclick="openPopup()">
+             </div>
+             <p><strong>Catatan Harian Pembunuh</strong></p>
+             <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">180k</i>
+               <i class="fa-solid fa-heart">67.2k</i>
+             </div>
+         </div>
+     </div>
+                <!-- Popup Overlay -->
+       <div class="popup-overlay hidden" id="popup-35">
+         <div class="popup-content">
+             <!-- Judul Buku di Atas Gambar -->
+             <h2>Catatan Harian Pembunuh</h2>
+             <p class="author">Kim Young-Ha</p>
+             
+             <!-- Isi Popup dengan Gambar dan Sinopsis -->
+             <div class="popup-body">
+                 <!-- Gambar Buku -->
+                 <img src="../foto/thriller3.jpeg" alt="" class="popup-image">
+                 
+                 <!-- Sinopsis Buku -->
+                 <div class="popup-synopsis">
+                     <p>Terakhir kali aku membunuh seseorang adalah 25 tahun yang laluÑatau 26 tahun yang lalu? Kurang-lebih begitulah. Kim Byeong-su adalah mantan pembunuh berantai berumur 70 tahun yang mulai hilang ingatan akibat demensia. Demi mempertahankan ingatan yang tersisa, ia pun mencatat semua yang terjadi pada dirinya, termasuk kehadiran kekasih putrinya yang dicurigainya sebagai pembunuh berantai yang kini mengincar wanita-wanita di desa tempat tinggal mereka. Kim Byeong-su harus memastikan putrinya tidak menjadi korban berikut. Ia pun memutuskan membunuh pria itu, sebelum ingatannya hilang seluruhnya.</p>
+                 </div>
+             </div>
+             
+             
+             <!-- Tombol Tutup -->
+             <button onclick="closePopup()" class="close-btn">X</button>
+         </div>
+     </div>
+   
+     <div class="col-md-3">
+       <div class="book-card">
+           <div class="image">
+               <img src="../foto/thriller4.jpeg" alt="" class="book-image" id="bookImage-36" onclick="openPopup()">
+           </div>
+           <p><strong>Sudut Mati</strong></p>
+           <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">129k</i>
+               <i class="fa-solid fa-heart">32.4k</i>
+           </div>
+       </div>
+   </div>
+              <!-- Popup Overlay -->
+     <div class="popup-overlay hidden" id="popup-36">
+       <div class="popup-content">
+           <!-- Judul Buku di Atas Gambar -->
+           <h2>Sudut Mati</h2>
+           <p class="author">Tsugaeda</p>
+           
+           <!-- Isi Popup dengan Gambar dan Sinopsis -->
+           <div class="popup-body">
+               <!-- Gambar Buku -->
+               <img src="../foto/thriller4.jpeg" alt="" class="popup-image">
+               
+               <!-- Sinopsis Buku -->
+               <div class="popup-synopsis">
+                   <p>Titan kembali dari Amerika Serikat setelah delapan tahun, tepat ketika Grup Prayogo milik ayahnya sedang krisis dan membutuhkan bantuannya. Selain kesulitan dalam urusan bisnis, ada ancaman dari kompetitor jahat, Ares Inco, yang memiliki keinginan menghancurkan keluarga Prayogo untuk selamanya.
+   
+                       Namun Titan tak hanya menghadapi itu. Kakaknya, Titok, tak suka tersaingi olehnya di dalam Grup. Adiknya, Tiara, justru menikah dengan putra mahkota musuh. Dan mungkin ia juga telah membawa kekasih yang dicintainya ke dalam bahaya.
+                       
+                       Titan harus menghadapi itu semua. Sementara tanpa ia ketahui, seorang pembunuh dengan kode “Si Dokter” mengintai dan menunggu saat tepat untuk ikut campur ke dalam urusan mereka.</p>
+               </div>
+           </div>
+           
+           
+           <!-- Tombol Tutup -->
+           <button onclick="closePopup()" class="close-btn">X</button>
+       </div>
+   </div>
+   
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/thriller5.jpeg" alt="" class="book-image" id="bookImage-37" onclick="openPopup()">
+         </div>
+         <p><strong>Rumah Bunuh Diri</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">167k</i>
+           <i class="fa-solid fa-heart">77.2k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-37">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Rumah Bunuh Diri</h2>
+         <p class="author">>Ainun Nisa</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/thriller5.jpeg" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Semua anak yang tinggal di rumah itu mengakhiri hidup mereka sendiri. Karena itulah, orang-orang menyebutnya Rumah Bunuh Diri.
+                   Namun, Adrianna yang baru pindah sudah depresi sejak awal dan tinggal di rumah tersebut malah membuatnya menemukan tujuh teman baru sekaligus, yang dia sebut The Boys. Hidupnya yang sepi, kini riuh kembali.
+                   Hingga malam penuh tragedi itu datang. Ketika mereka menemukan mayat di taman dan terjebak dalam permainan Werewolf yang mengancam nyawa.
+                   Lari, lari, ayo sembunyi.
+                   Jangan sampai dipergoki atau bisa-bisa kau ... mati.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/thriller6.jpeg" alt="" class="book-image" id="bookImage-38" onclick="openPopup()">
+         </div>
+         <p><strong>Dua Dini Hari</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">159k</i>
+           <i class="fa-solid fa-heart">53.8k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-38">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Dua Dini Hari</h2>
+         <p class="author">Chandra Bientang</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/thriller6.jpeg" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Sebagai buku kedua seri Urban Thriller yang kubaca, Dua Dini Hari tidak gagal membuatku merinding disko. Ekspektasi pertamaku full thriller, tapi ternyata kerasa horornya.
+   
+                   Buku ini membahas kejadian di Jatinegara pada dua dini hari. Di awal pagi, sejumlah anak jalanan ditemukan sudah meninggal dan (sengaja?) digantung di bawah flyover. Sebuah tempat yang mudah ditemukan oleh orang banyak.
+                   
+                   Penyelidikan kasus ini tampak lambat. Orang-orang memilih tidak peduli, karena korbannya ‘hanya’ anak-anak jalanan. Anak-anak yang bahkan tidak jelas nama dan asalnya. Bahkan ada yang berpikir kalau mereka ini lebih baik disingkirkan saja untuk mengurangi peliknya masalah perkotaan.
+                   
+                   Sampai muncul sosok Elang. Seorang taruna akpol yang enggan kembali ke kampusnya dan memilih menelusuri apa yang terjadi tidak jauh dari tempat tinggalnya. Keterikannya pada kasus ini mempertemukan Elang dengan Kanti, seorang mahasiswa DKV yang tengah cuti. Satu per satu fakta tak terduga terkuak. Tapi, Elang dan Kanti dalam bahaya!</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/thriller7.jpeg" alt="" class="book-image" id="bookImage-39" onclick="openPopup()">
+         </div>
+         <p><strong>The Woman In The Window </strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">126k</i>
+           <i class="fa-solid fa-heart">49.1k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-39">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>The Woman In The Window</h2>
+         <p class="author"> A. J. Finn</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/thriller7.jpeg" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Anna Fox menderita agorafobia karena kecelakaan mobil yang traumatis dan menjalani kehidupan yang menyendiri di rumahnya yang besar di New York City. Dia baru saja berpisah dari suaminya, Ed, yang memiliki hak asuh atas putri mereka yang berusia sembilan tahun, Olivia. Namun, mereka sering berbicara di telepon.
+   
+                   Untuk mengisi waktu, Anna menghabiskan hari-harinya dengan minum terlalu banyak alkohol, bermain catur online, berkomunikasi dengan pertapa lain melalui "forum online Agora", menonton film-film lama, dan bertemu dengan psikiater dan terapis fisiknya. Dia juga menghabiskan waktu memata-matai tetangganya, termasuk keluarga Russell, sebuah keluarga yang pindah di seberang jalan. Ada Ethan, anak remaja yang pendiam dan sopan; Alistair, ayah yang mengendalikan; dan Jane, seorang wanita ramah yang memiliki banyak minat yang sama dengan Anna.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/thriller8.jpeg" alt="Laut Bercerita" class="book-image" id="bookImage-40" onclick="openPopup()">
+         </div>
+         <p><strong>All the Sinners Bleed</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">132k</i>
+           <i class="fa-solid fa-heart">67k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-40">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>All the Sinners Bleed</h2>
+         <p class="author"> S. A. Cosby</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/thriller8.jpeg" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Novel All the Sinners Bleed karya S. A Cosby ini menyoroti sosok detektif bernama Titus yang menyelidiki kasus kematian seorang guru. Guru tersebut dibunuh oleh muridnya sendiri, lalu sang murid ditembak mati oleh salah satu rekan kerja Titus. Selama menyelidiki kasus tersebut, Titus mengungkap adanya pembunuh berantai yang berkeliaran di kotanya. 
+   
+   
+                   Artikel ini telah tayang di Idntimes.com dengan judul "10 Novel Thriller yang Masuk Nominasi Goodreads Choice Awards 2023".</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+     </section>
+   
+       <h1 class="judul">Komedi</h1>
+       <section class="row utama overflow-auto flex-nowrap">
+         <div class="col-md-3">
+             <div class="book-card">
+                 <div class="image">
+                     <img src="../foto/komedi1.jpeg" alt="" class="book-image" id="bookImage-41" onclick="openPopup()">
+                 </div>
+                 <p><strong>Bajak Laut Purnama Terakhir</strong></p>
+                 <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">165k</i>
+                   <i class="fa-solid fa-heart">46.5</i>
+                 </div>
+             </div>
+         </div>
+                    <!-- Popup Overlay -->
+           <div class="popup-overlay hidden" id="popup-41">
+             <div class="popup-content">
+                 <!-- Judul Buku di Atas Gambar -->
+                 <h2>Bajak Laut Purnama Terakhir</h2>
+                 <p class="author">Adhitya Mulya</p>
+                 <!-- Isi Popup dengan Gambar dan Sinopsis -->
+                 <div class="popup-body">
+                     <!-- Gambar Buku -->
+                     <img src="../foto/komedi1.jpeg" alt="Laut Bercerita" class="popup-image">
+                     <!-- Sinopsis Buku -->
+                     <div class="popup-synopsis">
+                         <p>“Kita harus ganti nama bajak laut ini. Kerapu Merah itu terdengar seperti nama rumah makan, bukan perompak yang ditakuti. Siapa sih kentut yang ngasih nama itu dulu, ya?”
+   
+   
+   
+                           “Elo, Bang.” 
+                           
+                           
+                           
+                           “Oh, yah sebenarnya Kerapu Merah gak jelek-jelek amat. Cuman kurang wibawa aja dikit. Dikiiit. Dikiiiiit. Ya udah gak apa-apa, gak usah ganti nama,” sahut Jaka.
+                           
+                           -----------
+                           
+                           Jaka Kelana punya mimpi menjadi bajak laut yang disegani bersama keempat awaknya. Kenyataannya, Jaka selalu saja gagal merompak karena dia memulainya dengan terlalu sopan, seperti, “Assalamualaikum, permisi, saya mau merompak, boleh?”
+                           
+                           
+                           
+                           Demi mencapai impiannya dan berkat pesan dari Dewa Ganteng, Jaka pantang menyerah. Hingga suatu hari Kerapu Merah mulai beraksi dan dikejar-kejar kompeni! Dari satu pulau ke pulau lain, petualangan mereka dimulai dan diikuti juga dengan tiga sosok misterius yang membawa pesan sakral. 
+                           
+                           
+                           
+                           Sebuah petualangan bersejarah yang harus mereka selesaikan—sebelum genap purnama terakhir.</p>
+                     </div>
+                 </div>
+                 <!-- Tombol Tutup -->
+                 <button onclick="closePopup('openPopup')" class="close-btn">X</button>
+             </div>
+         </div>
+         <div class="col-md-3">
+           <div class="book-card">
+               <div class="image">
+                   <img src="../foto/komedi2.jpeg" alt="" class="book-image" id="bookImage-42" onclick="openPopup()">
+               </div>
+               <p><strong>Ubur-Ubur Lembur</strong></p>
+               <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">155k</i>
+                   <i class="fa-solid fa-heart">54k</i>
+               </div>
+           </div>
+       </div>
+                  <!-- Popup Overlay -->
+         <div class="popup-overlay hidden" id="popup-42">
+           <div class="popup-content">
+               <!-- Judul Buku di Atas Gambar -->
+               <h2 class="Kosan" >Ubur-Ubur Lembur</h2>
+               <p class="author">Raditya Dika</p>
+               <!-- Isi Popup dengan Gambar dan Sinopsis -->
+               <div class="popup-body">
+                   <!-- Gambar Buku -->
+                   <img src="../foto/komedi2.jpeg" alt="" class="popup-image">
+                   <!-- Sinopsis Buku -->
+                   <div class="popup-synopsis">
+                       <p>Ubur-Ubur Lembur adalah buku kumpulan cerita karya Raditya Dika atau Radit yang diluncurkan secara serentak pada tanggal 7 Februari 2018. Buku ini menceritakan pengalaman Raditya Dika hidup dari apa yang dicintainya.[1] Pada prakata buku tersebut, Radit menceritakan bahwa dari semua pekerjaan yang Ia jalani, menulis adalah pekerjaan yang paling Ia senangi.[1] Tetapi, seiring dengan kesibukannya di dunia hiburan, menulis menjadi sebuah kemewahan tersendiri bagi Radit. Sampai suatu ketika Ia bertemu seorang komedian dari Australia di acara Ubud Writers and Readers Festival.
+   
+                           Obrolan pada pertemuan tersebut cukup membekas bagi Raditya Dika saat Ia bertanya kepada komedian tersebut; mengapa Ia masih tetap menjadi komedian. Sang komedian menjawab kalau Ia tetap melakukannya karena ada hal penting yang ingin Ia sampaikan. Radit pun ingin bisa kembali menulis karena Ia sadar ada sesuatu yang penting dan ingin Ia sampaikan. Seperti pada buku-bukunya yang lain, Raditya Dika selalu menyelipkan persoalan remeh-temeh yang menarik untuk ditertawakan.</p>
+                   </div>
+               </div>
+               <!-- Tombol Tutup -->
+               <button onclick="closePopup('popup-2')" class="close-btn">X</button>
+           </div>
+       </div>
+   
+       <div class="col-md-3">
+         <div class="book-card">
+             <div class="image">
+                 <img src="../foto/komedi3.jpeg" alt="" class="book-image" id="bookImage-43" onclick="openPopup()">
+             </div>
+             <p><strong>Skripsick</strong></p>
+             <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">145k</i>
+               <i class="fa-solid fa-heart">34.5k</i>
+             </div>
+         </div>
+     </div>
+                <!-- Popup Overlay -->
+       <div class="popup-overlay hidden" id="popup-43">
+         <div class="popup-content">
+             <!-- Judul Buku di Atas Gambar -->
+             <h2>Skripsick</h2>
+             <p class="author">Chara Perdana</p>
+             
+             <!-- Isi Popup dengan Gambar dan Sinopsis -->
+             <div class="popup-body">
+                 <!-- Gambar Buku -->
+                 <img src="../img/horor3.jpeg" alt="" class="popup-image">
+                 
+                 <!-- Sinopsis Buku -->
+                 <div class="popup-synopsis">
+                     <p>Gue udah mulai galau, selain karena gue jadi jomblo akut, gue juga terdesak buat cepet-cepet lulus. Alasan gue lulus cukup berlogika.
+   
+                       1. 95 persen penghuni di kampus gue cowok,
+                       
+                       2,5 persen cowok ngondek, 2 persen waria,
+                       
+                       nah yang 0,5 persen cewek jadi-jadian
+                       
+                       (sepertinya operasi kelamin mereka terkendala dana).
+                       
+                       Statistika itu jelas membuat gue
+                       
+                       nggak betah di kampus.
+                       
+                       2. Gue telat!
+                       
+                       Loe hamil Char?
+                       
+                       Bukan! Bukan itu! Gue telat masuk sekolah!
+                       
+                       Gue telat masuk TK!!
+                       
+                       Bener-bener ngebohay banget! *hening
+                       
+                       Ok, alasan-alasan itu cukup membuat gue untuk bertindak nekat!! Gue harus lulus cepet sebelum gue berubah orientasi seksual atau berpikir buat operasi kelamin. Tapi ternyata, hidup tidak semudah itu.
+                       
+                       Cara kerja Tuhan memang aneh, satu-satunya cara kita memahaminya hanyalah dengan bersyukur….</p>
+                 </div>
+             </div>
+             
+             
+             <!-- Tombol Tutup -->
+             <button onclick="closePopup()" class="close-btn">X</button>
+         </div>
+     </div>
+   
+     <div class="col-md-3">
+       <div class="book-card">
+           <div class="image">
+               <img src="../foto/komedi4.png" alt="" class="book-image" id="bookImage-44" onclick="openPopup()">
+           </div>
+           <p><strong>Setengah Jalan Buku</strong></p>
+           <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">146k</i>
+                     <i class="fa-solid fa-heart">61k</i>
+           </div>
+       </div>
+   </div>
+              <!-- Popup Overlay -->
+     <div class="popup-overlay hidden" id="popup-44">
+       <div class="popup-content">
+           <!-- Judul Buku di Atas Gambar -->
+           <h2>Setengah Jalan Buku</h2>
+           <p class="author">Ernest Prakasa</p>
+           
+           <!-- Isi Popup dengan Gambar dan Sinopsis -->
+           <div class="popup-body">
+               <!-- Gambar Buku -->
+               <img src="../foto/komedi4.png" alt="" class="popup-image">
+               
+               <!-- Sinopsis Buku -->
+               <div class="popup-synopsis">
+                   <p>"Bumi" karya Tere Liye adalah novel fantasi yang mengisahkan perjalanan Raib, seorang remaja yang memiliki kemampuan luar biasa untuk menghilang. Bersama dua temannya, Seli yang bisa mengendalikan petir dan Ali yang jenius, mereka menemukan dunia paralel yang penuh misteri dan petualangan. 
+     
+                       Dalam dunia ini, mereka menghadapi tantangan berbahaya, mengungkap rahasia besar, dan belajar tentang keberanian, persahabatan, serta tanggung jawab atas kekuatan mereka. "Bumi" adalah awal dari seri petualangan seru di dunia-dunia yang penuh keajaiban.</p>
+               </div>
+           </div>
+           
+           
+           <!-- Tombol Tutup -->
+           <button onclick="closePopup()" class="close-btn">X</button>
+       </div>
+   </div>
+   
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/komedi5.jpeg" alt="" class="book-image" id="bookImage-45" onclick="openPopup()">
+         </div>
+         <p><strong>Kambing Jantan</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">172k</i>
+           <i class="fa-solid fa-heart">52k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-45">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Kambing Jantan</h2>
+         <p class="author">Raditya Dika</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/komedi5.jpeg" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Kambing Jantan: Sebuah Catatan Harian Pelajar Bodoh adalah buku karya Raditya Dika yang diterbitkan pada tahun 2005. Buku ini berkonsep buku harian dan berisi 235 halaman, yang ditulis berdasarkan kejadian asli sang penulis saat ia kuliah di Adelaide, Australia. Buku ini pun sempat difilmkan pada tahun 2009 dengan bertitelkan Kambing Jantan: The Movie yang dibintangi Raditya sendiri, dan juga Herfiza Novianti.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/komedi6.jpeg" alt="" class="book-image" id="bookImage-46" onclick="openPopup()">
+         </div>
+         <p><strong>Jomblo</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">70k</i>
+           <i class="fa-solid fa-heart">12k </i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-46">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Jomblo</h2>
+         <p class="author">Adhitya Mulya</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/komedi6.jpeg" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Empat sahabat dengan masalah mereka dalam mencari cinta.
+   
+                   Yang satu harus memilih—seorang yang baik atau yang cocok.
+                   Yang satu harus memilih—antara seorang perempuan atau sahabat.
+                   Yang satu harus memilih—lebih baik diam saja selamanya atau menyatakan cinta.
+                   Yang satu harus memilih—terus mencoba atau tidak sama sekali.
+                   
+                   Jomblo adalah sebuah novel yang menjawab semua pertanyaan itu.
+                   Pertanyaan yang kita temukan sehari-hari, baik dalam cerita teman atau cerita kita sendiri.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/komedi7.jpeg" alt="" class="book-image" id="bookImage-47" onclick="openPopup()">
+         </div>
+         <p><strong>Lenong</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">121k</i>
+           <i class="fa-solid fa-heart">23.1k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-47">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Lenong</h2>
+         <p class="author">Syaiful Amri</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/komedi7.jpeg" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p> Putu Wijaya., Sastrawan Indonesia
+                   DKJ pernah punya program mensosialisasikan Teater Rakyat ke masyarakat. Lenongpun dibawa keliling. Habis pergelaran seorang anak muda berkomentar. âLho in ikan niru-niru Lenong Rumpiâ. Anekdot yang beneran terjadi itu sebuah alasan yang tepat untuk mengatakan buku âLenong Masa Lampau, Masa Kini dan Masa Depanâ, karya Sohib Saya Doktor Syaiful Amri ini sangat penting untuk meluruskan opini yang keliru.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/komedi8.jpeg" alt="Laut Bercerita" class="book-image" id="bookImage-48" onclick="openPopup()">
+         </div>
+         <p><strong>My Stupid Boss</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">122k</i>
+                   <i class="fa-solid fa-heart">65k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-48">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>My Stupid Boss</h2>
+         <p class="author"> #Chef#Chaos Work</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/komedi8.jpeg" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Boss: Kamu ngomong apa? Gue: Hah? Gak ngomong apa-apa..
+   
+   
+                   Boss: Kok mulut kamu begerak-gerak?
+                   
+                   Gue: Enggak ah.
+                   
+                   Boss: Wah, mesti ganti kacamata nih... (ngelepas kacamatanya dan tengok-tengok)
+                   
+                   Gue: (pake binocular aja...)
+                   
+                   Boss: Tuh kan bibir kamu komat-kamit lagi.
+                   
+                   Gue: Enggak kok!
+                   
+                   Boss: Iya!
+                   
+                   Gue: Ya udah terus kenapa rupanya dengan ruangan saya? Apa yang terjadi?
+                   
+                   Boss: Iya ruangan kita berjauhan..
+                   
+                   Adrian: Boss rindu sama Amoy Kerani bila berjauhan. Kasih lah rapat lagi....
+                   
+                   Gue + Bossman: DIAM KAMUUUU!
+                   
+                   </p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   </section>
+   
+       <h1 class="judul">Sci-fi</h1>
+       <section class="row utama overflow-auto flex-nowrap">
+         <div class="col-md-3">
+             <div class="book-card">
+                 <div class="image">
+                     <img src="../foto/sci-fi 1.jfif" alt="" class="book-image" id="bookImage-49" onclick="openPopup()">
+                 </div>
+                 <p><strong>Destination : Jakarta 2040</strong></p>
+                 <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">150k</i>
+                   <i class="fa-solid fa-heart"> 33k</i>
+                 </div>
+             </div>
+         </div>
+                    <!-- Popup Overlay -->
+           <div class="popup-overlay hidden" id="popup-49">
+             <div class="popup-content">
+                 <!-- Judul Buku di Atas Gambar -->
+                 <h2>Destination : Jakarta 2040</h2>
+                 <p class="author">Mashuri</p>
+                 <!-- Isi Popup dengan Gambar dan Sinopsis -->
+                 <div class="popup-body">
+                     <!-- Gambar Buku -->
+                     <img src="../foto/sci-fi 1.jfif" alt="Laut Bercerita" class="popup-image">
+                     <!-- Sinopsis Buku -->
+                     <div class="popup-synopsis">
+                         <p>Konsep waktu menjadi suatu fundamental dari bagaimana alam semesta bekerja. Mungkin, manusia sudah bisa memahami bagaimana waktu memengaruhi segala hal melalui ilmu fisika, tetapi belum bisa memanipulasinya. Namaku Ilyas, aku mempelajari alam semesta dan bagaimana menciptakan manipulasi waktu. Waktu memilihku untuk merasakan manipulasi itu secara nyata. Perjalanan manipulasi waktu merusak hubungan cintaku dengan seorang gadis bernama Alisa di tahun 2015, dan dipertemukan kembali secara tiba-tiba di tahun 2040. Perasaan yang aku rasakan sama, tetapi Alisa seperti masuk ke dunia mimpi di mana dia bisa melihat kembali kekasih yang hilang selama 25 tahun. Kehilanganku selama 25 tahun membuat Alisa membuka ÔjalanÕ untuk mengetahui apa yang sebenarnya terjadi. Namun, aku bingung oleh perjalanan distorsi waktu, tetapi aku harus mengetahui, apakah ini perjalanan yang harus dihadapi atau disadari?</p>
+                     </div>
+                 </div>
+                 <!-- Tombol Tutup -->
+                 <button onclick="closePopup('openPopup')" class="close-btn">X</button>
+             </div>
+         </div>
+         <div class="col-md-3">
+           <div class="book-card">
+               <div class="image">
+                   <img src="../foto/sci-fi 2.jfif" alt="" class="book-image" id="bookImage-50" onclick="openPopup()">
+               </div>
+               <p><strong>A Wrinkle in Time</strong></p>
+               <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">250k</i>
+                         <i class="fa-solid fa-heart"> 70k</i>
+               </div>
+           </div>
+       </div>
+                  <!-- Popup Overlay -->
+         <div class="popup-overlay hidden" id="popup-50">
+           <div class="popup-content">
+               <!-- Judul Buku di Atas Gambar -->
+               <h2 class="Kosan">A Wrinkle in Time</h2>
+               <p class="author">Madeleine L`Engle</p>
+               <!-- Isi Popup dengan Gambar dan Sinopsis -->
+               <div class="popup-body">
+                   <!-- Gambar Buku -->
+                   <img src="../foto/sci-fi 2.jfif" alt="" class="popup-image">
+                   <!-- Sinopsis Buku -->
+                   <div class="popup-synopsis">
+                       <p>Bertekad menemukan sang ayah-seorang ilmuwan yang telah menghilang tanpa kabar selama bertahun-tahun, Meg Murry dan adiknya, Charles Wallace, bersama teman baru mereka, Calvin O'Keefe, bertualang bersama. Dengan arahan dari tiga wanita misterius yang memiliki kemampuan sihir menakjubkan: Mrs. Whatsit, Mrs. Who, dan Mrs. Which, anak-anak itu menempuh perjalanan berbahaya menuju sebuah planet tempat ayah mereka ditawan, menggunakan dimensi kelima untuk melintasi jarak dan waktu. Di sana, Kejahatan yang sesungguhnya telah menunggu mereka. Lebih mengerikan daripada apa pun, lebih cerdas daripada siapa pun. Kejahatan itu mampu merasuki pikiran, menjajah dan menguasai. Mereka terancam kehilangan satu sama lain. Mampukah mereka bertahan dan menuntaskan misi penyelamatan?</p>
+                   </div>
+               </div>
+               <!-- Tombol Tutup -->
+               <button onclick="closePopup('popup-2')" class="close-btn">X</button>
+           </div>
+       </div>
+   
+       <div class="col-md-3">
+         <div class="book-card">
+             <div class="image">
+                 <img src="../foto/sci-fi 3.jpg" alt="" class="book-image" id="bookImage-51" onclick="openPopup()">
+             </div>
+             <p><strong>1984</strong></p>
+             <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">100k</i>
+               <i class="fa-solid fa-heart"> 16k</i>
+             </div>
+         </div>
+     </div>
+                <!-- Popup Overlay -->
+       <div class="popup-overlay hidden" id="popup-51">
+         <div class="popup-content">
+             <!-- Judul Buku di Atas Gambar -->
+             <h2>1984</h2>
+             <p class="author">George Orwell</p>
+             
+             <!-- Isi Popup dengan Gambar dan Sinopsis -->
+             <div class="popup-body">
+                 <!-- Gambar Buku -->
+                 <img src="../foto/sci-fi 3.jpg" alt="" class="popup-image">
+                 
+                 <!-- Sinopsis Buku -->
+                 <div class="popup-synopsis">
+                     <p>1984 menceritakan tentang pemerintahan negara yang terus berusaha mengetatkan kendali mereka atas rakyatnya sehingga tidak ada lagi kebebasan dalam kritik dan protes.</p>
+                 </div>
+             </div>
+             
+             
+             <!-- Tombol Tutup -->
+             <button onclick="closePopup()" class="close-btn">X</button>
+         </div>
+     </div>
+   
+     <div class="col-md-3">
+       <div class="book-card">
+           <div class="image">
+               <img src="../foto/sci-fi 4.jpg" alt="" class="book-image" id="bookImage-52" onclick="openPopup()">
+           </div>
+           <p><strong>The Martian : Si Penghuni Mars</strong></p>
+           <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">75k</i>
+               <i class="fa-solid fa-heart"> 30k</i>
+           </div>
+       </div>
+   </div>
+              <!-- Popup Overlay -->
+     <div class="popup-overlay hidden" id="popup-52">
+       <div class="popup-content">
+           <!-- Judul Buku di Atas Gambar -->
+           <h2>The Martian : Si Penghuni Mars</h2>
+           <p class="author">Andi Weir</p>
+           
+           <!-- Isi Popup dengan Gambar dan Sinopsis -->
+           <div class="popup-body">
+               <!-- Gambar Buku -->
+               <img src="../foto/sci-fi 4.jpg" alt="" class="popup-image">
+               
+               <!-- Sinopsis Buku -->
+               <div class="popup-synopsis">
+                   <p>Enam hari yang lalu, astronaut Mark Watney menjadi salah satu orang pertama yang menjejakkan kaki di Mars. Sekarang dia yakin akan menjadi yang pertama mati di sana.
+                       Mark ditinggalkan di Mars oleh rekan-rekannya, yang mengira dia tewas ketika terjadi badai pasir. Sekarang dia sendirian, tak punya sarana untuk mengirim sinyal ke Bumi, dan persediaan makanannya sudah pasti akan habis lama sebelum tim penyelamat bisa datang. Tapi Mark belum mau menyerah. Berbekal keterampilan teknis dan kreativitasnya––plus rasa humor yang terbukti menjadi sumber kekuatan terbesarnya––dia memulai misi untuk bertahan hidup, menanam kentang untuk dimakan, dan bahkan menyusun rencana edan untuk menghubungi NASA di Bumi.
+                       Rintangan demi rintangan berhasil diatasinya, dan Mark mulai yakin dia bisa keluar dari Mars hidup-hidup––tetapi planet ini ternyata menyimpan banyak kejutan untuknya.</p>
+               </div>
+           </div>
+           
+           
+           <!-- Tombol Tutup -->
+           <button onclick="closePopup()" class="close-btn">X</button>
+       </div>
+   </div>
+   
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/sci-fi 5.jpg" alt="" class="book-image" id="bookImage-53" onclick="openPopup()">
+         </div>
+         <p><strong>Dune</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">100k</i>
+           <i class="fa-solid fa-heart"> 16k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-53">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Dune</h2>
+         <p class="author">Fajar Aditya</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/sci-fi 5.jpg" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Novel ini menceritakan tentang seorang pemuda bernama Paul Atreides di planet Arrakis. Arrakis, sebuah planet tandus yang hanya dipenuhi oleh padang pasir. Air begitu langka sehingga lebih berharga daripada uang. Cacing raksasa menguasai dan berkeliaran di sepanjang padang pasir Arrakis.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/sci-fi 6.jpg" alt="" class="book-image" id="bookImage-54" onclick="openPopup()">
+         </div>
+         <p><strong>The Death Cure</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">175k</i>
+           <i class="fa-solid fa-heart"> 34.5k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-54">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>The Death Cure</h2>
+         <p class="author">James Dashner</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/sci-fi 6.jpg" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Keadaan makin tak terkendali. Penculikan manusia kebal terjadi di mana-mana. WICKED menyebarkan foto Thomas sebagai buronan paling dicari dengan imbalan tinggi. Kejutan justru muncul di Denver, kota dengan pengamanan super ketat terhadap penyebaran virus Flare. Seorang kawan lama muncul. Bagaimana mungkin? Bukankah dia sudah mati di tangan Thomas? Di Denver pula sebuah kelompok rahasia menyatakan diri sebagai musuh WICKED dan menawarkan bantuan.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/sci-fi 7.jfif" alt="" class="book-image" id="bookImage-55" onclick="openPopup()">
+         </div>
+         <p><strong>The Time Machine</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">130k</i>
+           <i class="fa-solid fa-heart"> 45.6k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-55">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>The Time Machine</h2>
+         <p class="author">Herbert George Wells</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/sci-fi 7.jfif" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Buku ini tentang seorang ilmuwan tanpa nama yang membangun mesin waktu, melakukan perjalanan ke tahun 802.701 M dan di sana bertemu dengan keturunan manusia – Eloi yang kekanak-kanakan dan Morlock yang mengerikan.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/sci-fi 8.jfif" alt="Laut Bercerita" class="book-image" id="bookImage-56" onclick="openPopup()">
+         </div>
+         <p><strong>Brave New World</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">122k</i>
+           <i class="fa-solid fa-heart"> 32.5k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-56">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Brave New World</h2>
+         <p class="author">Aldous Huxley</p>
+   
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/sci-fi 8.jfif" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Cerita ini membahas masyarakat futuristik, yang disebut Negara Dunia, yang berpusat pada sains dan efisiensi .</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+     </section>
+   
+       <h1 class="judul">Fantasi</h1>
+       <section class="row utama overflow-auto flex-nowrap">
+         <div class="col-md-3">
+             <div class="book-card">
+                 <div class="image">
+                     <img src="../foto/fantasi 1.jpg" alt="" class="book-image" id="bookImage-57" onclick="openPopup()">
+                 </div>
+                 <p><strong>Neverwhere</strong></p>
+                 <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">255k</i>
+                   <i class="fa-solid fa-heart"> 35.9k</i>
+                 </div>
+             </div>
+         </div>
+                    <!-- Popup Overlay -->
+           <div class="popup-overlay hidden" id="popup-57">
+             <div class="popup-content">
+                 <!-- Judul Buku di Atas Gambar -->
+                 <h2>Neverwhere</h2>
+                 <p class="author">Neil Gaiman</p>
+                 <!-- Isi Popup dengan Gambar dan Sinopsis -->
+                 <div class="popup-body">
+                     <!-- Gambar Buku -->
+                     <img src="../foto/fantasi 1.jpg" alt="Laut Bercerita" class="popup-image">
+                     <!-- Sinopsis Buku -->
+                     <div class="popup-synopsis">
+                         <p>Richard Mayhew adalah seorang pengusaha muda sederhana yang tinggal di London, dengan pekerjaan yang membosankan dan tunangan yang cantik namun menuntut. Kemudian suatu malam ia menemukan seorang gadis yang berdarah di trotoar. Ia berhenti untuk menolongnya--dan kehidupan yang dikenalnya lenyap seperti asap.....</p>
+                     </div>
+                 </div>
+                 <!-- Tombol Tutup -->
+                 <button onclick="closePopup('openPopup')" class="close-btn">X</button>
+             </div>
+         </div>
+         <div class="col-md-3">
+           <div class="book-card">
+               <div class="image">
+                   <img src="../foto/fantasi 2.jfif" alt="" class="book-image" id="bookImage-58" onclick="openPopup()">
+               </div>
+               <p><strong>Bumi</strong></p>
+               <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">270k</i>
+                   <i class="fa-solid fa-heart"> 75k</i>
+               </div>
+           </div>
+       </div>
+                  <!-- Popup Overlay -->
+         <div class="popup-overlay hidden" id="popup-58">
+           <div class="popup-content">
+               <!-- Judul Buku di Atas Gambar -->
+               <h2 class="Kosan" >Bumi</h2>
+               <p class="author">There Liye</p>
+               <!-- Isi Popup dengan Gambar dan Sinopsis -->
+               <div class="popup-body">
+                   <!-- Gambar Buku -->
+                   <img src="../foto/fantasi 2.jfif" alt="" class="popup-image">
+                   <!-- Sinopsis Buku -->
+                   <div class="popup-synopsis">
+                       <p>Menceritakan tentang petualangan tiga remaja, Raib, Ali, dan Seli, di dunia paralel. Petualangan mereka dimulai ketika Raib menemukan buku misterius yang menjadi kunci untuk membuka pintu menuju dunia paralel. Di dunia paralel, mereka menjelajahi Klan Bulan, Klan Matahari, dan Klan Bumi, dan menghadapi berbagai tantangan dan bahaya. Mereka harus melawan pasukan Tamus, sosok kejam yang berambisi menguasai dunia.....</p>
+                   </div>
+               </div>
+               <!-- Tombol Tutup -->
+               <button onclick="closePopup('popup-2')" class="close-btn">X</button>
+           </div>
+       </div>
+   
+       <div class="col-md-3">
+         <div class="book-card">
+             <div class="image">
+                 <img src="../foto/fantasi 3.avif" alt="" class="book-image" id="bookImage-59" onclick="openPopup()">
+             </div>
+             <p><strong>The Book Of The Lost Things</strong></p>
+             <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">185k</i>
+               <i class="fa-solid fa-heart"> 77.5k</i>
+             </div>
+         </div>
+     </div>
+                <!-- Popup Overlay -->
+       <div class="popup-overlay hidden" id="popup-59">
+         <div class="popup-content">
+             <!-- Judul Buku di Atas Gambar -->
+             <h2>The Book Of The Lost Things</h2>
+             <p class="author">John Connolly</p>
+             
+             <!-- Isi Popup dengan Gambar dan Sinopsis -->
+             <div class="popup-body">
+                 <!-- Gambar Buku -->
+                 <img src="../foto/fantasi 3.avif" alt="" class="popup-image">
+                 
+                 <!-- Sinopsis Buku -->
+                 <div class="popup-synopsis">
+                     <p>tentang anak lelaki bernama David, yang tersesat ke sebuah negeri di mana Snow White, Putri Tidur, dan si Tudung Merah bukanlah seperti yang kita kenal dalam buku-buku cerita. Negeri ini diperintah oleh seorang raja yang menyimpan rahasia-rahasianya dalam sebuah kitab misterius: Kitab Tentang Yang Telah Hilang....</p>
+                 </div>
+             </div>
+             
+             
+             <!-- Tombol Tutup -->
+             <button onclick="closePopup()" class="close-btn">X</button>
+         </div>
+     </div>
+   
+     <div class="col-md-3">
+       <div class="book-card">
+           <div class="image">
+               <img src="../foto/fantasi 4.jpg" alt="" class="book-image" id="bookImage-60" onclick="openPopup()">
+           </div>
+           <p><strong>The Chronicles Of Narnia</strong></p>
+           <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">267k</i>
+                     <i class="fa-solid fa-heart"> 58k</i>
+           </div>
+       </div>
+   </div>
+              <!-- Popup Overlay -->
+     <div class="popup-overlay hidden" id="popup-60">
+       <div class="popup-content">
+           <!-- Judul Buku di Atas Gambar -->
+           <h2>The Chronicles Of Narnia</h2>
+           <p class="author">C.S. Lewis</p>
+           
+           <!-- Isi Popup dengan Gambar dan Sinopsis -->
+           <div class="popup-body">
+               <!-- Gambar Buku -->
+               <img src="../foto/fantasi 4.jpg" alt="" class="popup-image">
+               
+               <!-- Sinopsis Buku -->
+               <div class="popup-synopsis">
+                   <p>Cerita ini menceritakan petualangan manusia ke dunia Narnia, sebuah tempat yang dipenuhi hewan-hewan yang bisa berbicara, faun, raksasa, dan kurcaci....</p>
+               </div>
+           </div>
+           
+           
+           <!-- Tombol Tutup -->
+           <button onclick="closePopup()" class="close-btn">X</button>
+       </div>
+   </div>
+   
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/fantasi 5.jpg" alt="" class="book-image" id="bookImage-61" onclick="openPopup()">
+         </div>
+         <p><strong>Harry Potter and the Chamber of Secrets</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">320k</i>
+           <i class="fa-solid fa-heart"> 150k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-61">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Harry Potter and the Chamber of Secrets</h2>
+         <p class="author">J.K. Rowling</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/fantasi 5.jpg" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Harry dan teman-temannya menemukan bahwa ada seseorang yang mengubah siswa-siswa menjadi batu. Harry menemukan letak Kamar Rahasia dan monster ular bernama Bacilis di dalamnya....</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/fantasi 6.jpg" alt="" class="book-image" id="bookImage-62" onclick="openPopup()">
+         </div>
+         <p><strong>Divergent</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">189k</i>
+           <i class="fa-solid fa-heart"> 88.6k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-62">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Divergent</h2>
+         <p class="author">Veronica Roth</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/fantasi 6.jpg" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Novel Divergent menceritakan seorang gadis, Beatrice Prior yang tinggal di sebuah kota Chicago versi masa mendatang. Di masa itu, para pendudukan terbagi menjadi lima fraksi. Pada setiap fraksi tentu mempunyai kepribadian dan ajarannya masing-masing.
+                   Singkat cerita, mereka menyadari bahwa fraksi Erudite memiliki rencana jahat untuk menjatuhkan fraksi Abnegation. Fraksi Erudite memakai alat untuk menguasai pikiran pada tentara dari fraksi Dauntless yang mana alat tersebut tidak akan berefek bagi seorang Divergent.
+                  Bagaimanakah kisah selanjutnya? Akankah Tris dan Four membuat rencana untuk menghalangi niat jahat dari fraksi Erudite? Bagaimanakah nasib keluarga Tris yang berada di fraksi Abnegation? Temukan keseruan kisah menegangkan yang dilakukan oleh Tris dan Four....</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/fantasi 7.jpg" alt="" class="book-image" id="bookImage-63" onclick="openPopup()">
+         </div>
+         <p><strong>Alaia </strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">85k</i>
+           <i class="fa-solid fa-heart"> 41.5k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-63">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Alaia</h2>
+         <p class="author">Raden Chedid</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/fantasi 7.jpg" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Dia masih hidup
+                   Keturuan sang Raja Siren dan Ratu Mermaid
+                   
+                   Menjalin hubungan terlarang
+                   Memecahkan kutukan
+                   Menentang permainan alam yang bersebunyi di jantung laut
+                   
+                   Siapa yang akan bertahan hingga akhir?....</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/fantasi 8.webp" alt="Laut Bercerita" class="book-image" id="bookImage-64" onclick="openPopup()">
+         </div>
+         <p><strong>The False Prince</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">177k</i>
+           <i class="fa-solid fa-heart"> 54.7k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-64">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>The False Prince</h2>
+         <p class="author">Jennifer A. Nielsen</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/fantasi 8.webp" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Novel ini mengisahkan aksi pencurian daging oleh seorang anak, Sage namanya. Upaya pencurian itu hampir kandas, tetapi berhasil diselamatkan oleh Conner. Sayangnya, tidak lama setelah itu, Sage diculik oleh dua orang lainnya, yaitu Mott dan Cregan. Sage tidak sendirian, ia bersama tiga anak lelaki lainnya dalam percobaan penculikan itu. Tiga anak lelaki yang dimaksud bernama Roden, Latamer, dan Thomas.
+                   Lalu, bagaimana kelanjutan ceritanya? Apakah Sage dan ketiga anak lainnya selamat? Cari tahu jawabannya dalam novel The False Prince.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   
+     </section>
+       <h1 class="judul">Misteri</h1>
+       <section class="row utama overflow-auto flex-nowrap">
+         <div class="col-md-3">
+             <div class="book-card">
+                 <div class="image">
+                     <img src="../foto/misteri 1.jpg" alt="" class="book-image" id="bookImage-65" onclick="openPopup()">
+                 </div>
+                 <p><strong>And Then There Were None</strong></p>
+                 <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">275k</i>
+                   <i class="fa-solid fa-heart"> 57.5k</i>
+                 </div>
+             </div>
+         </div>
+                    <!-- Popup Overlay -->
+           <div class="popup-overlay hidden" id="popup-65">
+             <div class="popup-content">
+                 <!-- Judul Buku di Atas Gambar -->
+                 <h2>And Then There Were None</h2>
+                 <p class="author">Agatha Christie</p>
+                 <!-- Isi Popup dengan Gambar dan Sinopsis -->
+                 <div class="popup-body">
+                     <!-- Gambar Buku -->
+                     <img src="../foto/misteri 1.jpg" alt="Laut Bercerita" class="popup-image">
+                     <!-- Sinopsis Buku -->
+                     <div class="popup-synopsis">
+                         <p>Kisah ingi menceritakan tentang sepuluh orang asing diundang ke sebuah pulau terpencil oleh tuan rumah misterius. Saat mereka mulai mati satu per satu, tamu yang tersisa menyadari bahwa pembunuhnya ada di antara mereka. Karena tidak ada cara untuk melarikan diri, mereka harus mengungkap identitas pembunuhnya sebelum terlambat.</p>
+                     </div>
+                 </div>
+                 <!-- Tombol Tutup -->
+                 <button onclick="closePopup('openPopup')" class="close-btn">X</button>
+             </div>
+         </div>
+         <div class="col-md-3">
+           <div class="book-card">
+               <div class="image">
+                   <img src="../foto/misteri 2.jpg" alt="" class="book-image" id="bookImage-66" onclick="openPopup()">
+               </div>
+               <p><strong>Girls in The Dark</strong></p>
+               <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">235k</i>
+                         <i class="fa-solid fa-heart"> 55k</i>
+               </div>
+           </div>
+       </div>
+                  <!-- Popup Overlay -->
+         <div class="popup-overlay hidden" id="popup-66">
+           <div class="popup-content">
+               <!-- Judul Buku di Atas Gambar -->
+               <h2 class="Kosan" >Girls in The Dark</h2>
+               <p class="author">Akiyoshi Rikako</p>
+               <!-- Isi Popup dengan Gambar dan Sinopsis -->
+               <div class="popup-body">
+                   <!-- Gambar Buku -->
+                   <img src="../foto/misteri 2.jpg" alt="" class="popup-image">
+                   <!-- Sinopsis Buku -->
+                   <div class="popup-synopsis">
+                       <p>menceritakan kisah gadis remaja yang mencoba mengungkap kematian Shiraishi Itsumi, pemimpin klub sastra di sekolah mereka. Shiraishi Itsumi adalah gadis terkenal yang dicintai oleh semua siswa sekolah. Kelompok remaja tersebut merupakan perwakilan dari klub sastra, antara lain Mirei Futanari, Akane Konan, Diana Dechewa, Sonoko Koga, Shiyo Takaoka dan Sayuri Sumikawa.</p>
+                   </div>
+               </div>
+               <!-- Tombol Tutup -->
+               <button onclick="closePopup('popup-2')" class="close-btn">X</button>
+           </div>
+       </div>
+   
+       <div class="col-md-3">
+         <div class="book-card">
+             <div class="image">
+                 <img src="../foto/misteri 3.jpg" alt="" class="book-image" id="bookImage-67" onclick="openPopup()">
+             </div>
+             <p><strong>A Good Girl Guide To Murder</strong></p>
+             <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">167k</i>
+               <i class="fa-solid fa-heart"> 57.8k</i>
+             </div>
+         </div>
+     </div>
+                <!-- Popup Overlay -->
+       <div class="popup-overlay hidden" id="popup-67">
+         <div class="popup-content">
+             <!-- Judul Buku di Atas Gambar -->
+             <h2>A Good Girl Guide To Murder</h2>
+             <p class="author">Holly Jackson</p>
+             
+             <!-- Isi Popup dengan Gambar dan Sinopsis -->
+             <div class="popup-body">
+                 <!-- Gambar Buku -->
+                 <img src="../foto/misteri 3.jpg" alt="" class="popup-image">
+                 
+                 <!-- Sinopsis Buku -->
+                 <div class="popup-synopsis">
+                     <p>
+                       Cerita ini bermula dari seorang gadis berumur 17 tahun bernama Pippa Fitz Amobi yang memiliki ketertarikan pada podcast kriminal sejati, seakan akan hatinya tidak mau berhenti dan yang di sekolah dirasa kurang. Ia ingin langsung terjun untuk melakukan investigasi dan kebetulan juga mendapat proyek Extended Project Qualification (EPQ) untuk tugas akhir sekolahnya. Pippa berencana mengungkap kembali kasus pembunuhan Andie Bell. Kasusnya sudah ditutup lima tahun lalu, Andie Bell dibunuh pacarnya, Sal Singh.</p>
+                 </div>
+             </div>
+             
+             
+             <!-- Tombol Tutup -->
+             <button onclick="closePopup()" class="close-btn">X</button>
+         </div>
+     </div>
+   
+     <div class="col-md-3">
+       <div class="book-card">
+           <div class="image">
+               <img src="../foto/misteri 4.jpg" alt="" class="book-image" id="bookImage-68" onclick="openPopup()">
+           </div>
+           <p><strong>Sharlock Holmes : A Scandal in Bohemia</strong></p>
+           <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">178k</i>
+                     <i class="fa-solid fa-heart"> 20.7k</i>
+           </div>
+       </div>
+   </div>
+              <!-- Popup Overlay -->
+     <div class="popup-overlay hidden" id="popup-68">
+       <div class="popup-content">
+           <!-- Judul Buku di Atas Gambar -->
+           <h2>Sharlock Holmes : A Scandal in Bohemia</h2>
+           <p class="author">Arthur Conan Doyle</p>
+           
+           <!-- Isi Popup dengan Gambar dan Sinopsis -->
+           <div class="popup-body">
+               <!-- Gambar Buku -->
+               <img src="../foto/misteri 4.jpg" alt="" class="popup-image">
+               
+               <!-- Sinopsis Buku -->
+               <div class="popup-synopsis">
+                   <p>Novel ini menceritakan tentang skandal yang melibatkan seorang bangsawan dan seorang perempuan biasa. Perempuan tersebut mengancam akan mengacaukan pernikahan bangsawan tersebut dengan orang lain karena pernah dicintai oleh bangsawan tersebut.</p>
+               </div>
+           </div>
+           
+           
+           <!-- Tombol Tutup -->
+           <button onclick="closePopup()" class="close-btn">X</button>
+       </div>
+   </div>
+   
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/misteri 5.avif" alt="" class="book-image" id="bookImage-69" onclick="openPopup()">
+         </div>
+         <p><strong>The Devotion of Mr. X</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">165k</i>
+           <i class="fa-solid fa-heart"> 64k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-69">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>The Devotion of Mr. X</h2>
+         <p class="author">Keigo Higashino</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/misteri 5.avif" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Ketika si mantan suami muncul lagi untuk memeras Yasuko Hanaoka dan putrinya, keadaan menjadi tak terkendali, hingga si mantan suami terbujur kaku di lantai apartemen. Yasuko berniat menghubungi polisi, tetapi mengurungkan niatnya ketika Ishigami, tetangganya, menawarkan bantuan untuk menyembunyikan mayat itu.....</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/misteri 6.jpg" alt="" class="book-image" id="bookImage-70" onclick="openPopup()">
+         </div>
+         <p><strong>7 Years of Darkness</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">159k</i>
+           <i class="fa-solid fa-heart"> 22.3k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-70">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>7 Years of Darkness</h2>
+         <p class="author">Jeong You-jeong</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/misteri 6.jpg" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Seowon, seorang anak laki-laki yang hidup dalam kegelapan selama tujuh tahun karena dituduh sebagai pelaku pembunuhan keji di Danau Seryeong tiba-tiba menemukan paket misterius.
+                   Paket tersebut berisi berbagai macam bukti yang mengungkapkan kebenaran kasus pembunuhan yang selama ini menjerat Seowon. Ia seolah kembali ke masa lalu dan melihat sudut pandang ayah, ibu, dan paman korban. ....</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/misteri 7.avif" alt="" class="book-image" id="bookImage-71" onclick="openPopup()">
+         </div>
+         <p><strong>The Murder of Roger Ackroyd </strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">163k</i>
+           <i class="fa-solid fa-heart"> 47.6k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-71">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>The Murder of Roger Ackroyd</h2>
+         <p class="author">Agatha Christie</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/misteri 7.avif" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Roger Ackroyd tahu terlalu banyak. Ia tahu bahwa wanita yang ia cintai meracuni suami pertamanya yang kejam. Ia juga curiga bahwa wanita itu diperas seseorang. Dan kini… wanita itu bunuh diri.
+                   Malam itu Roger menerima sepucuk surat berisi informasi yang sangat fatal. Sayang sekali, sebelum ia sempat membaca surat itu sampai selesai, seseorang menikamnya hingga tewas.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/misteri 8.jpg" alt="Laut Bercerita" class="book-image" id="bookImage-72" onclick="openPopup()">
+         </div>
+         <p><strong>Confession</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">68.5k</i>
+           <i class="fa-solid fa-heart"> 36.8k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-72">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Confession</h2>
+         <p class="author">Kanae Minato</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/misteri 8.jpg" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Novel ini menceritakan tentang seorang guru muda yang baru saja berduka karena anak perempuan yang begitu disayanginya ditemukan tewas meninggal di kolam renang sekolah.
+                   Guru tersebut mengumpulkan beberapa anak dan memberikan setiap anak sekotak susu lalu meminta izin untuk berpamitan mengingat dirinya akan segera resign sambil menyampaikan narasi mengejutkan.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   
+     </section>
+   
+   
+       <h1 class="judul">Poetry</h1>
+       <section class="row utama overflow-auto flex-nowrap">
+         <div class="col-md-3">
+             <div class="book-card">
+                 <div class="image">
+                     <img src="../foto/poetry 1.avif" alt="" class="book-image" id="bookImage-73" onclick="openPopup()">
+                 </div>
+                 <p><strong>>Milk and Honey</strong></p>
+                 <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">157k</i>
+                   <i class="fa-solid fa-heart"> 21.4k</i>
+                 </div>
+             </div>
+         </div>
+                    <!-- Popup Overlay -->
+           <div class="popup-overlay hidden" id="popup-73">
+             <div class="popup-content">
+                 <!-- Judul Buku di Atas Gambar -->
+                 <h2>Milk and Honey</h2>
+                 <p class="author">Rupi Kaur</p>
+                 <!-- Isi Popup dengan Gambar dan Sinopsis -->
+                 <div class="popup-body">
+                     <!-- Gambar Buku -->
+                     <img src="../foto/poetry 1.avif" alt="Laut Bercerita" class="popup-image">
+                     <!-- Sinopsis Buku -->
+                     <div class="popup-synopsis">
+                         <p>Setiap orang pasti pernah mengalami luka. Luka akibat jatuh dari sepeda, luka karena tidak sengaja tergores benda tajam, atau luka yang menyebabkan sakit hati berkepanjangan. Luka sekecil apapun itu, ada perih yang terasa… dan mungkin saja sakitnya membekas. Milk and Honey, tanpa sadar, bisa menjadi salah satu obat penyembuh.</p>
+                     </div>
+                 </div>
+                 <!-- Tombol Tutup -->
+                 <button onclick="closePopup('openPopup')" class="close-btn">X</button>
+             </div>
+         </div>
+         <div class="col-md-3">
+           <div class="book-card">
+               <div class="image">
+                   <img src="../foto/poetry 2.avif" alt="" class="book-image" id="bookImage-74" onclick="openPopup()">
+               </div>
+               <p><strong>Love, Spelled in Poetry</strong></p>
+               <div class="view-grid">
+                   <i class="fa-solid fa-eye fa-1x">140k</i>
+                   <i class="fa-solid fa-heart"> 22.3k</i>
+               </div>
+           </div>
+       </div>
+                  <!-- Popup Overlay -->
+         <div class="popup-overlay hidden" id="popup-74">
+           <div class="popup-content">
+               <!-- Judul Buku di Atas Gambar -->
+               <h2 class="Kosan">Love, Spelled in Poetry</h2>
+               <p class="author">Helena Natasha</p>
+               <!-- Isi Popup dengan Gambar dan Sinopsis -->
+               <div class="popup-body">
+                   <!-- Gambar Buku -->
+                   <img src="../foto/poetry 2.avif" alt="" class="popup-image">
+                   <!-- Sinopsis Buku -->
+                   <div class="popup-synopsis">
+                       <p>Saat membacanya, para pembaca bisa merasakan kegalauan yang dirasakan oleh penulis. Dalam membaca buku ini tidak perlu berurutan. Bisa dibaca dari halaman berapa pun yang dimau. Buku ini dapat mengisi waktu kosong pembaca, jika para pembaca sedang galau dengan mimpi-mimpinya, buku ini bisa menjadi rekomendasi.</p>
+                   </div>
+               </div>
+               <!-- Tombol Tutup -->
+               <button onclick="closePopup('popup-2')" class="close-btn">X</button>
+           </div>
+       </div>
+   
+       <div class="col-md-3">
+         <div class="book-card">
+             <div class="image">
+                 <img src="../foto/poetry 3.avif" alt="" class="book-image" id="bookImage-75" onclick="openPopup()">
+             </div>
+             <p><strong>A Poem with Your Name</strong></p>
+             <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">153k</i>
+               <i class="fa-solid fa-heart"> 18.9k</i>
+             </div>
+         </div>
+     </div>
+                <!-- Popup Overlay -->
+       <div class="popup-overlay hidden" id="popup-75">
+         <div class="popup-content">
+             <!-- Judul Buku di Atas Gambar -->
+             <h2>A Poem with Your Name</h2>
+             <p class="author">Adi Kurniadi</p>
+             
+             <!-- Isi Popup dengan Gambar dan Sinopsis -->
+             <div class="popup-body">
+                 <!-- Gambar Buku -->
+                 <img src="../foto/poetry 3.avif" alt="" class="popup-image">
+                 
+                 <!-- Sinopsis Buku -->
+                 <div class="popup-synopsis">
+                     <p>Buku “A Poem with Your Name” adalah buku kumpulan puisi yang ditujukan untuk seseorang yang ada di hatimu. Beberapa ada yang senang, beberapa menyedihkan, ada juga yang membuat kita merasakan amarah. Cover buku yang berwarna biru sangat mengisyaratkan kesedihan di dalam bukunya. Buku ini dilengkapi dengan ilustrasi yang dibuat sekaligus oleh penulisnya. Buku ini cocok dijadikan sebagai teman ketika musim hujan.</p>
+                 </div>
+             </div>
+             
+             
+             <!-- Tombol Tutup -->
+             <button onclick="closePopup()" class="close-btn">X</button>
+         </div>
+     </div>
+   
+     <div class="col-md-3">
+       <div class="book-card">
+           <div class="image">
+               <img src="../foto/poetry 4.jfif" alt="" class="book-image" id="bookImage-76" onclick="openPopup()">
+           </div>
+           <p><strong>Love Looks Pretty On You</strong></p>
+           <div class="view-grid">
+               <i class="fa-solid fa-eye fa-1x">133k</i>
+               <i class="fa-solid fa-heart"> 32k</i>
+           </div>
+       </div>
+   </div>
+              <!-- Popup Overlay -->
+     <div class="popup-overlay hidden" id="popup-76">
+       <div class="popup-content">
+           <!-- Judul Buku di Atas Gambar -->
+           <h2>Love Looks Pretty On You</h2>
+           <p class="author">Lang Leav</p>
+           
+           <!-- Isi Popup dengan Gambar dan Sinopsis -->
+           <div class="popup-body">
+               <!-- Gambar Buku -->
+               <img src="../foto/poetry 4.jfif" alt="" class="popup-image">
+               
+               <!-- Sinopsis Buku -->
+               <div class="popup-synopsis">
+                   <p>Love Looks Pretty on You adalah buku baru yang ditunggu-tunggu oleh penulis laris internasional Lang Leav. Kumpulan puisi dan prosa kontemporer yang sangat indah, menawarkan wawasan yang kuat tentang cinta, patah hati, hubungan, dan pemberdayaan diri.</p>
+               </div>
+           </div>
+           
+           
+           <!-- Tombol Tutup -->
+           <button onclick="closePopup()" class="close-btn">X</button>
+       </div>
+   </div>
+   
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/poetry 5.png" alt="" class="book-image" id="bookImage-77" onclick="openPopup()">
+         </div>
+         <p><strong>Useless Magic: Lyrics and Poetry</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">156k</i>
+           <i class="fa-solid fa-heart"> 23.2k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-77">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Useless Magic: Lyrics and Poetry</h2>
+         <p class="author">Florence Welch</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/poetry 5.png" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Buku ini menyoroti kehebatan artistiknya, memamerkan serangkaian lirik dan puisi yang sebelumnya tidak diterbitkan. Dipenuhi dengan sketsa dan seni visual, setiap halaman mencerminkan semangat kreatifnya. Banyak pembaca sangat mengagumi musiknya, yang sangat cocok dengan pendekatan baru terhadap seninya. Welch percaya lagu-lagunya sering kali mengandung unsur-unsur profetik, mengungkap pesan-pesan bawah sadar yang sering kali ia pahami bertahun-tahun kemudian.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/poetry 6.avif" alt="" class="book-image" id="bookImage-78" onclick="openPopup()">
+         </div>
+         <p><strong>You Never Existed: A Heartbreak Poetry</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">127k</i>
+           <i class="fa-solid fa-heart"> 55k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-78">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>You Never Existed: A Heartbreak Poetry</h2>
+         <p class="author">Adi Kurniadi</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/poetry 6.avif" alt="Laut Bercerita" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Everyone has been hurt. Everyone, at some point in their life, wants the person who hurt them to disappear from the face of the earth, or at least, doesn`t want to know them anymore.
+                   This is a book of broken heart poetry. About people who have been hurt. About regret knowing the wrong person. About the raw emotions of anger and disappointment. About wanting to let go of the past. But of all the feelings of resentment that arise, there is only one feeling that matters the most: You never existed in my life.
+                      Selamat membaca!</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/poetry 7.avif" alt="" class="book-image" id="bookImage-79" onclick="openPopup()">
+         </div>
+         <p><strong>The Book of Forbidden Feelings </strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">125k</i>
+           <i class="fa-solid fa-heart"> 35k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-79">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>The Book of Forbidden Feelings</h2>
+         <p class="author">Lala Bohang</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/poetry 7.avif" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>The Book of Forbidden Feelings mungkin adalah salah satu buku yang paling dicari pada tahun 2016 di Indonesia. Buku ini merupakan kumpulan puisi yang disampaikan dengan singkat namun meninggalkan kesan mendalam bagi pembacanya. Setiap lembarnya mengutarakan perasaan yang berbeda-beda mulai dari perasaan kesepian, hubungan, diri sendiri, dan juga hubungan pertemanan yang seringnya kita simpan sendiri. Namun, buku ini akan membuat seolah-olah semua yang kita simpan, tersampaikan hanya dengan membaca lembar demi lembar. Tulisan berwarna putih di setiap lembar berwarna gelap terasa menambah kesan mendalam tadi. Buku ini juga dilengkapi dengan ilustrasi indah yang akan selalu memanjakan mata saat membacanya.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+   <div class="col-md-3">
+     <div class="book-card">
+         <div class="image">
+             <img src="../foto/poetry 8.avif" alt="Laut Bercerita" class="book-image" id="bookImage-80" onclick="openPopup()">
+         </div>
+         <p><strong>Masih Ingatkah Kau Jalan Pulang</strong></p>
+         <div class="view-grid">
+           <i class="fa-solid fa-eye fa-1x">120k</i>
+           <i class="fa-solid fa-heart"> 30.5k</i>
+         </div>
+     </div>
+   </div>
+            <!-- Popup Overlay -->
+   <div class="popup-overlay hidden" id="popup-80">
+     <div class="popup-content">
+         <!-- Judul Buku di Atas Gambar -->
+         <h2>Masih Ingatkah Kau Jalan Pulang</h2>
+         <p class="author">Sapardi Djoko Damono</p>
+         
+         <!-- Isi Popup dengan Gambar dan Sinopsis -->
+         <div class="popup-body">
+             <!-- Gambar Buku -->
+             <img src="../foto/poetry 8.avif" alt="" class="popup-image">
+             
+             <!-- Sinopsis Buku -->
+             <div class="popup-synopsis">
+                 <p>Buku puisi ini adalah hasil kolaborasi dua penulis dalam pengertian yang sesungguhnya. Bukan dua orang yang masing-masing menulis puisi lalu digabungkan dalam satu buku, melainkan Sapardi mendengarkan terlebih dahulu Semesta milik Rintik Sedu, kemudian ia menuliskannya sebagai puisi.
+                   Dua generasi berbeda "bertemu" dan berkolaborasi dalam lembaran buku dan menghasilkan deretan puisi yang bisa dinikmati oleh semua generasi. Mereka adalah Sapardi Djoko Damono yang merupakan penyair senior dan Rintik Sedu alias Nadhifa Allya Tsana Rintik sang penulis buku romansa untuk generasi muda.
+                 Keduanya berbagi ide dan menghasilkan karya berupa buku Masih ingatkah Kau Jalan Pulang yang isi puisinya bagaikan ada dua orang yang bersaut-sautan tentang segala hal, mulai dari cinta, kehidupan hingga kepulangan. Buat yang lagi dilematis sama hubungan, buku ini bisa memperparah luka kalian. Jadi, hati-hati, ya.</p>
+             </div>
+         </div>
+         
+         
+         <!-- Tombol Tutup -->
+         <button onclick="closePopup()" class="close-btn">X</button>
+     </div>
+   </div>
+     </section>
+      
+     </div>
+       </section>
+     </main>
+
+ 
+  <footer class="col-lg-10 col-md-9 ms-sm-auto ms-md-auto px-4">
+    <div class="row g-3">
+      <div class="col-md-3 text-center">
+        <div class="mt-5">
+          <img src="../img/logo.png" alt="Logo" class="img-fluid" style="max-width: 200px; height: auto;">
+        </div>
+      </div>
+  
+      <div class="col-md-9">
+        <div class="row g-5">
+          <div class="col-md-4 text-center"></div>
+          <div class="col-md-4 text-center"></div>
+          <div class="col-md-4 text-center"></div>
+        </div>
+  
+        <div class="row g-3 mt-4">
+          <h1 class="text-center mt-3 mb-3">Closed Now</h1>
+          <div class="col-md-4 col-sm-4">
+            <div class="tambahan">
+              <a href="about.html"><h6>About Us</h6></a>
+              <ul>
+                <li><a href="">Mission</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Newsletter</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="tambahan">
+              <a href="contatct.html"><h6>Contact</h6></a>
+              <ul>
+                <li><a href="">Fun</a></li>
+                <li><a href="">Refund Policy</a></li>
+                <li><a href="">FAQs</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="tambahan">
+              <h6>Social</h6>
+              <ul>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">YouTube</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="d-flex bawah">
+      <div>
+        <p>Copyright &copy; Webcoming</p>
+      </div>
+      <div class=""></div>
+      <p>Team Service</p>
+      <div>
+        <a href="#body">Back to up</a>
+      </div>
+    </div>
+  </footer>
+  
+
+</div>
+</div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="../js/main.js"></script>
+  
+  <script src="../js/genre.js"></script>
+</body>
+</html>

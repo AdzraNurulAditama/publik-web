@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>kelompok 10</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/bukufavorit.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body id="body">
+
+
+  <div class="container-fluid ">
+
+    
+    <!-- Navbar untuk ukuaran Hp -->
+   
+
+    <div class="row">
+      <!-- navbar untuk ukuran laptop -->
+      <nav class="col-lg-2 col-md-3 d-none d-md-block  position-fixed  navv" >
+        <div class="d-flex muncul ">
+          <i class="fa-solid fa-user me-2 mt-1" ></i>
+          <h5 class=" mb-4"> <span class="displayUsername"></span></h5>
+        </div>
+  
+          <ul class="nav flex-column ">
+            <li class="nav-item mb-2">
+              <i class="fa-solid fa-house "></i>
+              <a class=" " href="index.html">HOME</a>
+              
+            </li>
+            <li class="nav-item mb-2 ">
+              <i class="fa-solid fa-book"></i>
+              <a class="" href="genre.html">Genre Buku</a>
+              <i class="fa-solid fa-circle-down"></i>
+              <div class="linear">
+            
+            </div>
+            </li>
+            <li class="nav-item">
+              <i class="fa-solid fa-heart"></i>
+              <a class="" href="bukufavorit.html">Buku Favorit</a>
+            </li>
+            <li class="nav-item mt-2">
+              <a href="myprofil.html">My Profil</a> 
+            </li >
+          </ul>
+        </nav>
+
+      <!-- header -->
+      <header class="col-lg-10 col-md-9  ms-sm-auto px-5 " >
+      <div>
+        <h1>Welcome to Website</h1>
+      </div>
+      <div>
+          <input class="search" type="text" placeholder="Search Books">
+      </div>
+      <div>
+         <button type="button" class="logout">Logout</button>
+      </div>
+      </header>
+      <nav class="navbar  navbar-dark bg-dark d-md-none  mb-3 " style="margin-top: ;">
+        <div class="container-fluid"> 
+          <div class="d-flex muncul ">
+            <i class="fa-solid fa-user me-2 mt-1" ></i>
+            <h5 class=" mb-4"> <span class="displayUsername"></span></h5>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="nav ">
+              <li class="nav-item me-5">
+                <i class="fa-solid fa-house  "></i>
+                <a class=" " href="index.html" target="_blank">HOME</a>
+                
+              </li>
+
+          
+
+              <li class="nav-item me-5">
+                <i class="fa-solid fa-book"></i>
+                <a class="" href="#">Genre Buku</a>
+                
+  
+              </li>
+              <li class="nav-item me-5">
+                <i class="fa-solid fa-heart"></i>
+                <a class="" href="#">Buku Favorit</a>
+              </li>
+              <li class="nav-item ">
+                <a href="myprofil.html">My Profil</a> 
+              </li >
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="col-lg-10 col-md-9 ms-sm-auto px-4" >
+
+       
+        <section class="konten">
+             <div class="isi"> 
+       
+               <div class="container">
+                   
+                   <h1>Pilih Buku Favorit Anda</h1>
+               
+       
+               <section id="availableBooks" class="book-list">
+                   <div class="book-card" data-title="The Chronicles Of Narnia" data-author="C.S. Lewis">
+                       <img src="../img/fantasi 4.jpg" alt="Cover The Chronicles Of Narnia">
+                       <div class="book-info">
+                           <h3>The Chronicles Of Narnia</h3>
+                           <p>Oleh: C.S. Lewis</p>
+                           <button class="add-favorite">Tambah ke Favorit</button>
+                       </div>
+                   </div>
+                   <div class="book-card" data-title="Proposal For Wedding" data-author="DesyMiladiana">
+                       <img src="../img/buku 5.jpg" alt="Cover Proposal For Wedding">
+                       <div class="book-info">
+                           <h3>Proposal For Wedding</h3>
+                           <p>Oleh: DesyMiladiana</p>
+                           <button class="add-favorite">Tambah ke Favorit</button>
+                       </div>
+                   </div>
+                   <div class="book-card" data-title="Red Queen" data-author="Victoria Aveyard">
+                       <img src="../img/action1.jpeg" alt="Cover Red Queen">
+                       <div class="book-info">
+                           <h3>Red Queen</h3>
+                           <p>Oleh: Victoria Aveyard</p>
+                           <button class="add-favorite">Tambah ke Favorit</button>
+                       </div>
+                   </div>
+                   <div class="book-card" data-title="All That You Deserve" data-author="Dee Lestari">
+                       <img src="../img/poetry 9.jfif" alt="Cover All That You Deserve">
+                       <div class="book-info">
+                           <h3>All That You Deserve</h3>
+                           <p>Oleh: Dee Lestari</p>
+                           <button class="add-favorite">Tambah ke Favorit</button>
+                       </div>
+                   </div>
+                   <div class="book-card" data-title="Divergent" data-author="Veronica Roth">
+                       <img src="../img/fantasi 6.jpg" alt="Cover Divergent">
+                       <div class="book-info">
+                           <h3>Divergent</h3>
+                           <p>Oleh: Veronica Roth</p>
+                           <button class="add-favorite">Tambah ke Favorit</button>
+                       </div>
+                   </div>
+                   <div class="book-card" data-title="1984" data-author="George Orwell">
+                       <img src="../img/sci-fi 3.jpg" alt="Cover 1984">
+                       <div class="book-info">
+                           <h3>1984</h3>
+                           <p>Oleh: George Orwell</p>
+                           <button class="add-favorite">Tambah ke Favorit</button>
+                       </div>
+                   </div>
+                   <div class="book-card" data-title="Confession" data-author="Kanae Minato">
+                       <img src="../img/misteri 8.jpg" alt="Cover Confession">
+                       <div class="book-info">
+                           <h3>Confession</h3>
+                           <p>Oleh: Kanae Minato</p>
+                           <button class="add-favorite">Tambah ke Favorit</button>
+                       </div>
+                   </div>
+                   <div class="book-card" data-title="DEAR ALETHA" data-author="noir13">
+                       <img src="../img/buku 7.jpg" alt="Cover DEAR ALETHA">
+                       <div class="book-info">
+                           <h3>DEAR ALETHA</h3>
+                           <p>Oleh: noir13</p>
+                           <button class="add-favorite">Tambah ke Favorit</button>
+                       </div>
+                   </div>
+                   <div class="book-card" data-title="Dua Dini Hari" data-author="Chandra Bientang">
+                       <img src="../img/thriller6.jpeg" alt="CoverDua Dini Hari">
+                       <div class="book-info">
+                           <h3>Dua Dini Hari</h3>
+                           <p>Oleh: Chandra Bientang</p>
+                           <button class="add-favorite">Tambah ke Favorit</button>
+                       </div>
+                   </div>
+                   <div class="book-card" data-title="KKN di Desa Penari" data-author="Raditya Dika">
+                       <img src="../img/horor2.jpeg" alt="Cover KKN di Desa Penari">
+                       <div class="book-info">
+                           <h3>KKN di Desa Penari</h3>
+                           <p>Oleh: Raditya Dika</p>
+                           <button class="add-favorite">Tambah ke Favorit</button>
+                       </div>
+                   </div>
+                   <div class="book-card" data-title="Yellowface" data-author="Rebecca F. Kuang">
+                       <img src="../img/misteri 12.jpg" alt="Cover Yellowface">
+                       <div class="book-info">
+                           <h3>Yellowface</h3>
+                           <p>Oleh: Rebecca F. Kuang</p>
+                           <button class="add-favorite">Tambah ke Favorit</button>
+                       </div>
+                   </div>
+                   <div class="book-card" data-title="Hello, My Prince!" data-author="anothermissjo">
+                       <img src="../img/buku 10.jpg" alt="Cover Hello, My Prince!">
+                       <div class="book-info">
+                           <h3>Hello, My Prince!</h3>
+                           <p>Oleh: anothermissjo</p>
+                           <button class="add-favorite">Tambah ke Favorit</button>
+                       </div>
+                   </div>
+               </section>
+       
+               <h2>Daftar Buku Favorit</h2>
+               <section id="favoriteBooks" class="book-list">
+                   <!-- Daftar buku favorit -->
+               </section>
+           </div>
+   
+   
+              
+             </div>
+       </section>
+     </main>
+
+ 
+     <footer class="col-lg-10 col-md-9 ms-sm-auto ms-md-auto px-4">
+      <div class="row g-3">
+        <div class="col-md-3 text-center">
+          <div class="mt-5">
+            <img src="../img/logo.png" alt="Logo" class="img-fluid" style="max-width: 200px; height: auto;">
+          </div>
+        </div>
+    
+        <div class="col-md-9">
+          <div class="row g-5">
+            <div class="col-md-4 text-center"></div>
+            <div class="col-md-4 text-center"></div>
+            <div class="col-md-4 text-center"></div>
+          </div>
+    
+          <div class="row g-3 mt-4">
+            <h1 class="text-center mt-3 mb-3">Closed Now</h1>
+            <div class="col-md-4 col-sm-4">
+              <div class="tambahan">
+                <a href="about.html"><h6>About Us</h6></a>
+                <ul>
+                  <li><a href="">Mission</a></li>
+                  <li><a href="">Team</a></li>
+                  <li><a href="">Newsletter</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <div class="tambahan">
+                <a href="contatct.html"><h6>Contact</h6></a>
+                <ul>
+                  <li><a href="">Fun</a></li>
+                  <li><a href="">Refund Policy</a></li>
+                  <li><a href="">FAQs</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <div class="tambahan">
+                <h6>Social</h6>
+                <ul>
+                  <li><a href="">Instagram</a></li>
+                  <li><a href="">Twitter</a></li>
+                  <li><a href="">YouTube</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="d-flex bawah">
+        <div>
+          <p>Copyright &copy; Webcoming</p>
+        </div>
+        <div class=""></div>
+        <p>Team Service</p>
+        <div>
+          <a href="#body">Back to up</a>
+        </div>
+      </div>
+    </footer>
+
+</div>
+</div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/bukufavorit.js"></script>
+  <script></script>
+</body>
+</html>
